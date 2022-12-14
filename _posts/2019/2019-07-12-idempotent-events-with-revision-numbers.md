@@ -4,13 +4,8 @@ title: "Idempotent events with revision numbers"
 date: "2019-07-12"
 categories: 
   - "coding"
-tags: 
-  - "activemq"
   - "architecture"
   - "design-pattern"
-  - "event-sourcing"
-  - "kinesis"
-  - "messaging"
 coverImage: "industry-2147403_1280.jpg"
 ---
 

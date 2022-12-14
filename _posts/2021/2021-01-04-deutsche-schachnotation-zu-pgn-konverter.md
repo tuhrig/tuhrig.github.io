@@ -4,8 +4,6 @@ title: "Deutsche Schachnotation zu PGN Konverter"
 date: "2021-01-04"
 categories:
   - "java-script"
-  - "chess"
-published: true
 ---
 
 Ich habe über die Weihnachtszeit mal wieder Schach gespielt - mehr schlecht als recht. 

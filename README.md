@@ -19,6 +19,17 @@ It was migrated to Jakyll / githup.io in December 2022.
     # Run Jekyll to see the blog
     bundle exec jekyll serve
 
+## Categories
+
+- "coding"
+- "architecture"
+- "design-pattern" 
+- "java"
+- "kotlin" 
+- "spring"
+- "blog" 
+- "academic" 
+
 ## Theme and styling
 
 The theme and layout is forked from:

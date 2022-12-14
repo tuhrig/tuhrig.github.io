@@ -1,10 +1,13 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
 
-My name is Thomas and I'm a software developer based by [Karlsruhe](https://de.wikipedia.org/wiki/Karlsruhe), Germany. Java is my native tongue and Spring Boot my weapon of choice. Currently, I'm working for [Bringmeister GmbH](http://bringmeister.de) fully remote.
+My name is Thomas and I'm a software developer based by [Karlsruhe](https://de.wikipedia.org/wiki/Karlsruhe), Germany. 
+Spring Boot is my weapon of choice, whether with Java or Kotlin.
+I love to build micro-service and to write code which is easy to read.
+Currently, I'm working for [Bringmeister GmbH](http://bringmeister.de) fully remote.
 
 ![Picture of myself](/images/avatar-round.png)
 

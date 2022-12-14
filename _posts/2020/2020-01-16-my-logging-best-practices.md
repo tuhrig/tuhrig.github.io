@@ -4,15 +4,11 @@ title: "My Logging Best Practices"
 date: "2020-01-16"
 categories: 
   - "coding"
-tags: 
-  - "architecture"
-  - "logging"
-coverImage: "abstract-1846059_1280.jpg"
 ---
 
 If you are a backend developer like me, logging is the window to your application. Unlike in the frontend, there's not much to see except from some logging messages. Here are some of my personal guidelines I use when I write logs.
 
-# Log after, not before
+## Log after, not before
 
 Back in the days, a logbook was written on every ship. It was like a diary which recorded important events throughout the day. And just like a traditional logbook, we should log things that had happened instead of things we are going to do.
 
@@ -32,7 +28,7 @@ The second log is much better. It clearly states that the operation right before
 
 I apply this rule to all INFO logs. However I make exceptions for DEBUG.
 
-# Separate parameters and messages
+## Separate parameters and messages
 
 A typical log message contains two types of data. One type is a handwritten message which states was is going on. The second type is a list of (technical) parameters involved in the operation. You should try to separate both parts.
 
@@ -48,7 +44,7 @@ The first log message has some flaws. It's difficult to parse for example for Gr
 
 The seconds version has none of these flaws. It's easy to parse because the parameter list has a clear syntax. It's easy to read, as you can see the sentence right up-front. And it's easy to extend as you can just add another parameter to the list.
 
-# Distinguish between WARNING and ERROR
+## Distinguish between WARNING and ERROR
 
 Obviously, log levels are there for a reason and you should use them appropriately. And there are some key differences between a WARNING and an ERROR.
 
@@ -75,7 +71,7 @@ So in case of a WARNING, you did something, but you didn't do it perfectly. In c
 
 Also note that a WARNING (and also an ERROR of course) is a call to action. If nobody needs to react and to do something, then you don't need to log a WARNING.
 
-# INFO is for business, DEBUG for technology
+## INFO is for business, DEBUG for technology
 
 The INFO log should look like a book. It should tell you what had happened, not necessarily how. This means that INFO is better suited for business-like log messages compared to technical stuff. Technical related messages should (usually) be DEBUG.
 
@@ -94,7 +90,7 @@ This type of log tells you a story from the point of view of our business. Now w
 
 Every (business) use-case results in a single line of INFO log. Additionally, there are DEBUG logs which give a more detailed insight in how the process works.
 
-# Much more
+## Much more
 
 Of course, there's much more to do for good logs. You also need to consider things like tracing, log aggregation and metrics. But when it comes down to the pure writing, I really recommend those little rules.
 
