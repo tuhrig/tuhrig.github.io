@@ -4,19 +4,15 @@ title: "Generating PDFs with Java, Flying Saucer and Thymeleaf (Part 2)"
 date: "2018-02-01"
 categories: 
   - "coding"
-tags: 
-  - "flying-saucer"
   - "html"
   - "java"
-  - "pdf"
-coverImage: "ufo-3105954_1280.jpg"
 ---
 
 Last year, I wrote [an article](http://tuhrig.de/generating-pdfs-with-java-flying-saucer-and-thymeleaf) about generating PDFs with Java and [Flying Saucer](https://github.com/flyingsaucerproject/flyingsaucer) using [Thymeleaf](http://www.thymeleaf.org) HTML templates. The article covered all basic steps to generate a simple (text only) PDF file. However, I got some comments on how to include images or how to style the PDF. So let's have a look at part 2.
 
 > Example on GitHub: [https://github.com/tuhrig/Flying\_Saucer\_PDF\_Generation](https://github.com/tuhrig/Flying_Saucer_PDF_Generation)
 
-# PDF rendering pipeline
+## PDF rendering pipeline
 
 The rendering of the PDF goes through several steps:
 
@@ -27,7 +23,7 @@ The rendering of the PDF goes through several steps:
 
 [![](images/Flying_Saucer-1.png)](http://tuhrig.de/wp-content/uploads/2018/01/Flying_Saucer-1.png)
 
-# Example
+## Example
 
 I've created a running example which is available on GitHub:
 
@@ -35,7 +31,7 @@ I've created a running example which is available on GitHub:
 
 I will refer to this example in the following.
 
-# Styling with CSS
+## Styling with CSS
 
 We can style our PDF by using CSS. We just need to include the CSS in our HTML as normal:
 
@@ -86,7 +82,7 @@ The tricky part is to apply CSS rules which are used for printed pages and are r
 
 More about `@page`: [https://www.tutorialspoint.com/css/css\_paged\_media.htm](https://www.tutorialspoint.com/css/css_paged_media.htm)
 
-# Images
+## Images
 
 It shouldn't be a surprise that images work pretty much as expected. We just include them in our HTML and Flying Saucer will include them in our PDF:
 
@@ -97,7 +93,7 @@ It shouldn't be a surprise that images work pretty much as expected. We just inc
 
 However, it might by tricky to find the right place for the images (and CSS files) in your project. When executing Flying Saucer in an unit test - just as I did in my example - the working directory will be the project root. So all images and CSS files must be referenced relatively from there. If the HTML refers to an image `logo.png`, this image must be in the root folder of the project. But note that this highly depends on your project setup and how you generate the HTML.
 
-# More
+## More
 
 - [Part 1](http://tuhrig.de/generating-pdfs-with-java-flying-saucer-and-thymeleaf) of this article
 - [GitHub project](https://github.com/tuhrig/Flying_Saucer_PDF_Generation)

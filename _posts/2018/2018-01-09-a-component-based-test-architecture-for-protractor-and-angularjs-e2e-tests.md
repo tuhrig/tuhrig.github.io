@@ -4,13 +4,8 @@ title: "A component-based test architecture for Protractor and AngularJS E2E tes
 date: "2018-01-09"
 categories: 
   - "coding"
-tags: 
   - "angularjs"
-  - "e2e"
   - "javascript"
-  - "protractor"
-  - "testing"
-coverImage: "shell-3078360_1280.jpg"
 ---
 
 Usually, when we talk about _architecture_, we talk about the application itself. We think about layers, domain models and interfaces to structure our code. Most of the time the tests will follow this architecture. We create one test per service and mirror our code.
@@ -32,7 +27,7 @@ In the following, I want to present a simple approach for a component-based test
 
 You find a sample implementation [here](https://github.com/tuhrig/Review_System_Demo/tree/master/E2E_Tests).
 
-# Application Structure
+## Application Structure
 
 Whenever we develop an UI, we will end up with multiple pages (also called _views_). These pages will be made up of components (sometimes called _widgets_).
 
@@ -48,7 +43,7 @@ The _app_ contains multiple _pages_ which contain multiple _components_. You wil
  
         
 
-# Submit a new review!
+## Submit a new review!
 
         ... 
     
@@ -74,7 +69,7 @@ No matter where we are, our application can be broke down to pages with componen
                 | REVIEW-CREATOR |
                 +----------------+
 
-# Test Objects
+## Test Objects
 
 For each component, we create a test object. A test object is a controller for the component. It can set values, press buttons or read text - whatever the component does.
 
@@ -179,7 +174,7 @@ By using test objects, we narrow the HTML to a single component. We only care ab
 
 This takes us directly to the next step: page objects.
 
-# Page Objects
+## Page Objects
 
 The same way test objects encapsulate components, page objects encapsulate views. Let's do an example again:
 
@@ -217,7 +212,7 @@ A page object to control this view might look like this:
 
 Note how the encapsulation goes on: The page object uses the test object (`review-creator.controller.js`) which we created above. Any low-level stuff is encapsulated there. The page object only selects the component (`element(by.tagName('review-creator'))`) and passes it to the test object (`reviewCreatorController.setComponent(reviewCreator)`). On the other hand, the test object doesn't need to know where the component is located and how to find it. It's passed in by the page object.
 
-# E2E Tests
+## E2E Tests
 
 Now that we have test objects as well as page objects, writing the actual E2E tests becomes very easy. Every E2E test should test a concrete scenario or use case. In our example, an use case could look like this:
 
@@ -244,7 +239,7 @@ By using test objects and page objects, the abstraction of our E2E test cases be
 
 And: If we manage to write a test object for every component as soon as we implement it (just like we would implement an unit test) we will get a powerful toolbox to create E2E test scenarios. Creating those E2E tests could then also be done by a tester who is not so familiar with the actual components as they are encapsulated by the test objects. No knowledge of Protractor, HTML selectors and so on would be needed.
 
-# Final Thoughts
+## Final Thoughts
 
 - Every component should have its own test objects. As components can be made up of other components, it's perfectly fine to use test objects in other test objects.
 - Page objects are somehow optional. It depends on the complexity of the application if it make sense. In my [sample application](https://github.com/tuhrig/Review_System_Demo) I didn't use any page objects, because each page only contains a single component.

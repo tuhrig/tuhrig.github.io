@@ -221,7 +221,14 @@ img {
 p > img {
   text-align: center;
   display: block;
-  margin: 0 auto;
+  // margin: 0 auto; // custom
+  // background: #fafafa; // custom
+  margin-top: 15px; // custom
+  margin-right: auto; // custom
+  margin-bottom: 15px; // custom
+  margin-left: auto; // custom
+  padding: 25px; // custom
+  // border: 1px dotted; // custom
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -378,7 +385,7 @@ nav {
     color: $gray;
     font-size: 22px;
     font-style: italic;
-    background-color: #ede1ff;
+    background-color: #fafafa;
   }
 
   .you-may-like{
@@ -707,7 +714,7 @@ Modules - reusable parts of our design
 
 .pagination a, .pagination span {
   padding: 7px 18px;
-  border: 1px solid #eee;
+  // border: 1px solid #eee;
   margin-left: -2px;
   margin-right: -2px;
   background-color: #ffffff;
@@ -723,6 +730,7 @@ Modules - reusable parts of our design
 
 .pagination {
   text-align: center;
+  padding-top: 10px; /* custom */
 }
 
 @media only screen and (min-width: 320px) and (max-width: 759px) {

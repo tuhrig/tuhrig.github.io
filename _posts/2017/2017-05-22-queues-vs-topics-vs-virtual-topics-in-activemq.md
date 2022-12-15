@@ -4,19 +4,14 @@ title: "Queues vs. Topics vs. Virtual Topics (in ActiveMQ)"
 date: "2017-05-22"
 categories: 
   - "coding"
-tags: 
-  - "activemq"
   - "architecture"
   - "design-pattern"
-  - "jms"
-  - "messaging"
   - "software-design"
-coverImage: "billiards-1263076_1280.jpg"
 ---
 
 [ActiveMQ](http://activemq.apache.org) provides a variety of different messaging patterns. While queues and topics are the most famous ones, virtual topics can combine the best of both worlds: multiple consumers with their own dedicated queue.
 
-# Queues
+## Queues
 
 ![](images/Screen-Shot-2017-05-22-at-09.05.41.png)
 
@@ -32,7 +27,7 @@ Queues are the most obvious messaging pattern implemented by ActiveMQ. They prov
 - Only one consumer can get the message
 - Implies a coupling between producer and consumer as it's an one-to-one relation
 
-# Topics
+## Topics
 
 ![](images/Screen-Shot-2017-05-22-at-09.05.54.png)
 
@@ -48,7 +43,7 @@ Topics implement an one-to-many channel between a producer and multiple consumer
 - More complicated communication flow
 - A message cannot be recovered for a single listener
 
-# Virtual Topics
+## Virtual Topics
 
 ![](images/Screen-Shot-2017-05-22-at-09.06.04.png)
 
@@ -64,14 +59,14 @@ Virtual topics combine both approaches. While the producer sends messages to a t
 
 - Might require additional configuration in the broker
 
-# Conclusion
+## Conclusion
 
 Both, queues and topics, have their own drawbacks. While queues tighten producer and consumer, topics lack of an easy way to recover errors of a single consumer. Virtual topics are provide a solution for both problems. Producer and consumers are decoupled by a publish-and-subscribe pattern while error recovery can be done on individual queues.
 
-# More
+## More
 
 - [http://activemq.apache.org/virtual-destinations.html](http://activemq.apache.org/virtual-destinations.html)
 - [http://activemq.apache.org/what-is-the-difference-between-a-virtual-topic-and-a-composite-destination.html](http://activemq.apache.org/what-is-the-difference-between-a-virtual-topic-and-a-composite-destination.html)
 - [http://alvinalexander.com/java/jwarehouse/activemq/activemq-core/src/test/java/org/apache/activemq/broker/virtual/VirtualTopicSelectorTest.java.shtml](http://alvinalexander.com/java/jwarehouse/activemq/activemq-core/src/test/java/org/apache/activemq/broker/virtual/VirtualTopicSelectorTest.java.shtml)
 
-**Best regards,** Thomas
+**Best regards,** Thomas.

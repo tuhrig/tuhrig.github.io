@@ -4,17 +4,14 @@ title: "Event Sourcing with Kotlin"
 date: "2018-08-01"
 categories: 
   - "coding"
-tags: 
   - "ddd"
   - "design-pattern"
-  - "event-sourcing"
   - "kotlin"
-coverImage: "nature-254951_640.jpg"
 ---
 
 Some weeks ago I published a [demo project on GitHub](https://github.com/bringmeister/ddd-with-kotlin) showing a [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) with [Kotlin](https://kotlinlang.org). You can find the original blog post right [here](https://tuhrig.de/ddd-with-kotlin). Now I took the approach one step further and added [Event Sourcing](http://microservices.io/patterns/data/event-sourcing.html) to the demo. Here's what I did.
 
-# Event Sourcing
+## Event Sourcing
 
 The basic idea of Event Sourcing is to store a stream of events instead the current state of an object. So Event Sourcing is a different persistence approach.
 
@@ -81,7 +78,7 @@ The first method performs business logic and actually does something whereas the
     val events = eventStore.findAllById(42)
     val product = Product().applyAll(events) 
 
-# Demo on GitHub
+## Demo on GitHub
 
 As this description might sound a little bit weird, I've prepared a small demo project on [GitHub](https://github.com/bringmeister/event-sourcing-with-kotlin):
 
@@ -91,13 +88,13 @@ The demo shows a small use-case and provides a web UI which helps to see what is
 
 [![](images/Screen-Shot-2018-08-01-at-11.15.57-1024x713.png)](http://tuhrig.de/wp-content/uploads/2018/08/Screen-Shot-2018-08-01-at-11.15.57.png)
 
-# Presentation
+## Presentation
 
 https://speakerdeck.com/tuhrig/event-sourcing-1
 
-**Best regards,** Thomas
-
-# More
+## More
 
 - [https://github.com/bringmeister/event-sourcing-with-kotlin](https://github.com/bringmeister/event-sourcing-with-kotlin)
 - [http://microservices.io/patterns/data/event-sourcing.html](http://microservices.io/patterns/data/event-sourcing.html)
+
+**Best regards,** Thomas.

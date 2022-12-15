@@ -4,9 +4,8 @@ title: "Don't depend on details - an example"
 date: "2018-06-27"
 categories: 
   - "coding"
-tags: 
   - "architecture"
-  - "book"
+  - "books"
   - "design-pattern"
   - "kotlin"
 ---

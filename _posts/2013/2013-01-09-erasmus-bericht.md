@@ -4,15 +4,7 @@ title: "ERASMUS Bericht"
 date: "2013-01-09"
 categories: 
   - "academic"
-  - "private_life"
-tags: 
-  - "academic"
-  - "ersamus"
-  - "hdm"
-  - "linkoping"
-  - "liu"
-  - "sweden"
-  - "travel"
+  - "personal"
 ---
 
 Nachdem ich nun mittlerweile wieder zurück in Deutschland bin, ist es Zeit für den obligatorischen ERASMUS-Bericht. Anbei findet ihr das PDF für meine Hochschule, aber auch ein paar persönliche Meinungen von mir zu den Vorlesungen die besucht habe. Ich hoffe es hilft euch.
@@ -41,4 +33,4 @@ Klassiker. Schwedisch in Schweden zu lernen gehört einfach dazu. Mein Tipp ist 
 
 Ich hoffe euch helfen meine Einschätzungen und Kommentare ein wenig weiter. Ich bin insgesamt sehr zufrieden mit meinem Studium gewesen und - bei aller Kritik - auch mit meinen Vorlesungen.
 
-**Beste Grüße,** Thomas Uhrig
+**Beste Grüße,** Thomas.

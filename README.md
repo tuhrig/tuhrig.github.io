@@ -29,12 +29,35 @@ It was migrated to Jakyll / githup.io in December 2022.
 - "spring"
 - "blog" 
 - "academic" 
+- "angularjs"
+- "javascript"
+- "html"
+- "ddd"
+- "database"
+- "aws"
+- "wordpress"
+- "security"
+- "software-design" 
+- "devops"
+- "personal" 
 
 ## Theme and styling
 
 The theme and layout is forked from:
 
 - https://github.com/amitmerchant1990/reverie.
+
+## Code Blocks
+
+Do it like this:
+
+{% raw %}
+```html
+<html>
+```
+{% endraw %}
+
+See: https://stackoverflow.com/questions/52324134/getting-an-liquid-exception-liquid-syntax-error-while-using-jekyll
 
 ## License
 
