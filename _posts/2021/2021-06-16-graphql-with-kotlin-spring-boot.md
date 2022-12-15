@@ -4,10 +4,7 @@ title: "GraphQL with Kotlin + Spring Boot"
 date: "2021-06-16"
 categories: 
   - "coding"
-tags: 
-  - "gql"
   - "kotlin"
-coverImage: "cobweb-1644984_1280.jpg"
 published: true
 ---
 

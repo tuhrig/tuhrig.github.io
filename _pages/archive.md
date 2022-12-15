@@ -4,7 +4,6 @@ permalink: /archive/
 title: Posts Archive
 ---
 
-
 <div id="archives">
   <section id="archive">
      <h3>Most Recent Posts</h3>
@@ -27,7 +26,7 @@ title: Posts Archive
           {% endif %}
 -->
           {% endunless %}
-          <p><b><a href="{{ site.baseurl }}{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></b> - {% if post.date and post.date != "" %}{{ post.date | date: "%e %B %Y" }}{%endif%}</p>
+          <p><b><a href="{{ site.baseurl }}{{ post.url }}">{% if post.title and post.title != "" %}{{post.title}}{% else %}{{post.excerpt |strip_html}}{%endif%}</a></b><br>{% if post.date and post.date != "" %}{{ post.date | date: "%e %B %Y" }}{%endif%}</p>
           {% endfor %}
       </ul>
     <h3>Oldest Posts</h3>

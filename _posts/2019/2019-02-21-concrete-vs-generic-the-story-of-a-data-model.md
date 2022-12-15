@@ -2,12 +2,9 @@
 layout: post
 title: "Concrete vs Generic - The story of a data model"
 date: "2019-02-21"
-categories: 
-  - "academic"
+categories:
   - "coding"
-tags: 
   - "architecture"
-  - "database"
   - "design-pattern"
 ---
 
