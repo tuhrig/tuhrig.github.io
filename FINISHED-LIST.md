@@ -153,5 +153,5 @@
 --- DONE --- 2021-06-16-graphql-with-kotlin-spring-boot.md
 --- DONE --- 2021-07-06-testing-configurationproperties-in-spring-boot-2-5-x.md
 2022
-2021-12-13-remaking-my-blog-with-jekyll.md
+--- DONE --- 2021-12-13-remaking-my-blog-with-jekyll.md
 2021-12-12-neo4j-with-spring-boot.md
