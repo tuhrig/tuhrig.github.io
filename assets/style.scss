@@ -222,13 +222,19 @@ p > img {
   text-align: center;
   display: block;
   // margin: 0 auto; // custom
-  // background: #fafafa; // custom
+   background: #fafafa; // custom
   margin-top: 15px; // custom
   margin-right: auto; // custom
   margin-bottom: 15px; // custom
   margin-left: auto; // custom
   padding: 25px; // custom
-  // border: 1px dotted; // custom
+   border: 1px dotted; // custom
+}
+
+.no-border {
+  border: 0;
+  background: none;
+
 }
 
 // Fixes images in popup boxes from Google Translate

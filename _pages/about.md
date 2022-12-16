@@ -9,7 +9,7 @@ Spring Boot is my weapon of choice, whether with Java or Kotlin.
 I love to build micro-service and to write code which is easy to read.
 Currently, I'm working for [Bringmeister GmbH](http://bringmeister.de) fully remote.
 
-![Picture of myself](/images/avatar-round.png)
+<img class="no-border" src="/images/avatar-round.png">
 
 I studied [Computer Science and Media](http://www.mi.hdm-stuttgart.de/csm) at the [Media University (HdM)](http://www.hdm-stuttgart.de "HdM Stuttgart") in [Stuttgart](https://www.google.com/maps/place/Stuttgart,+Deutschland), Germany, where I finished my Bachelor's degree (Bachelor of Science) in 2012 and my Master's degree (Master of Science) in 2014.
 

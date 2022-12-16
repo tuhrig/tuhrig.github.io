@@ -5,7 +5,6 @@ date: "2021-07-06"
 categories:
   - "java"
   - "spring"
-published: true
 ---
 
 Three years ago, I wrote an article on how to test Spring's `@ConfigurationProperties` classes. Since three years are a long time, I just updated the project on GitHub. **It works with Spring 2.5.X now!**
@@ -73,12 +72,14 @@ So what's wrong with this?
 Well, you can only test one particular configuration with this. 
 The whole test case loads a single YAML-file and let's you autowire a single `MyConfigurationProperties` object. 
 This makes it very annoying to test different variations of a configuration file. 
-You need a whole new test case for each little change. 
-This is where my simple little helper comes into play.
+You need a whole new test case for each little change.
+But we can do better!
 
 ## Using a builder for the properties
 
-The [project on GitHub](https://github.com/tuhrig/Testing_Configuration_Properties) shows how to implement a little helper in order to build the configuration properties new in every single test. You can just load any properties file (e.g. `application.yml`) and manipulate its values to easily create different configurations for your test. This helps to reduce the amount of code you need a lot.
+The [project on GitHub](https://github.com/tuhrig/Testing_Configuration_Properties) shows how to implement a little helper in order to build the configuration properties new in every single test.
+You can just load any properties file (e.g. `application.yml`) and manipulate its values to easily create different configurations for your test. 
+This helps to reduce the amount of code you need drastically.
 
 ```java
 MyConfigurationProperties properties = ConfigurationPropertiesBuilder
