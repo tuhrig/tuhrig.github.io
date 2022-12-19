@@ -1,0 +1,49 @@
+//// https://dbdiagram.io/d
+
+Table Shop {
+  id int [pk]
+  name varchar
+}
+
+Table Location {
+  id int [pk]
+  name varchar
+}
+
+
+Table Product {
+  id int [pk]
+  name varchar
+}
+
+Table Shop_Locations {
+  shop int
+  location int
+}
+
+Ref: Shop_Locations.shop > Shop.id
+Ref: Shop_Locations.location > Location.id
+
+Table Products_Sold {
+  shop int
+  product int
+}
+
+Ref: Products_Sold.shop > Shop.id
+Ref: Products_Sold.product > Product.id
+
+Table Products_Compatible {
+  product_a int
+  product_b int
+}
+
+Ref: Products_Compatible.product_a > Product.id
+Ref: Products_Compatible.product_b > Product.id
+
+Table Products_Require {
+  product_a int
+  product_b int
+}
+
+Ref: Products_Require.product_a > Product.id
+Ref: Products_Require.product_b > Product.id

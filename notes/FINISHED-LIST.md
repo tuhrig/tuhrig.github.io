@@ -144,9 +144,9 @@
 2018-12-18-dynamodb-with-kotlin-and-spring-boot-part-2.md
 2019
 2019-02-21-concrete-vs-generic-the-story-of-a-data-model.md
-2019-07-12-idempotent-events-with-revision-numbers.md
+--- DONE --- 2019-07-12-idempotent-events-with-revision-numbers.md
 2020
-2020-01-16-my-logging-best-practices.md
+--- DONE --- 2020-01-16-my-logging-best-practices.md
 2021
 --- DONE --- 2021-01-04-deutsche-schachnotation-zu-pgn-konverter.md
 --- DONE --- 2021-01-28-my-bachelors-and-masters-thesis.md
@@ -154,4 +154,6 @@
 --- DONE --- 2021-07-06-testing-configurationproperties-in-spring-boot-2-5-x.md
 2022
 --- DONE --- 2021-12-13-remaking-my-blog-with-jekyll.md
-2021-12-12-neo4j-with-spring-boot.md
+--- DONE --- 2021-12-12-neo4j-with-spring-boot.md
+2023
+--- DONE --- 2023-01-03-monitoring-latency-in-a-microservice-architecture.md

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Remaking my blog with Jekyll"
-date: "2022-12-12"
+date: "2022-12-18"
 categories: 
   - "blog"
 ---
@@ -73,6 +73,7 @@ Everything seems to be more under control.
 
 The actual migration on the other side was a bunch of work. 
 My old blog has been growing over the years and it accumulated a lot of "technical debt".
+Even before the migration, there have been broken posts, dead links and missing images.
 I'm happy that it's done, but it wasn't all fun.
 
 **Best regards,** Thomas.
