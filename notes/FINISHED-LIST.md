@@ -141,7 +141,7 @@
 2018-06-27-dont-depend-on-details-an-example.md
 2018-08-01-event-sourcing-with-kotlin.md
 2018-10-15-dynamodb-with-kotlin-and-spring-boot.md
-2018-12-18-dynamodb-with-kotlin-and-spring-boot-part-2.md
+--- DONE --- 2018-12-18-dynamodb-with-kotlin-and-spring-boot-part-2.md
 2019
 --- DONE --- 2019-02-21-concrete-vs-generic-the-story-of-a-data-model.md
 --- DONE --- 2019-07-12-idempotent-events-with-revision-numbers.md

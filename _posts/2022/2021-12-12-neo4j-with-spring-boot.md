@@ -6,6 +6,7 @@ categories:
   - "coding"
   - "java"
   - "spring"
+  - "database" 
 ---
 
 Over the last ten years, I worked with a lot of different database.
@@ -58,9 +59,25 @@ In a relational SQL database this would look like this:
 The main difference between graph databases and relational databases is the following:
 
 - Building relations in SQL is hard, but easy in Graph databases.
-Relations in SQL means to relay on `JOIN` operations which are complex and not efficient.
-- However, SQL databases focus on single tables with a strong schema and transaction handling.
+Relations in SQL means to use `JOIN` operations which are complex and not efficient.
+- SQL databases focus on single tables with a strong schema and transaction handling.
 So while relation databases are super efficient with single entries, graph databases are efficient with relations.
+
+So how does a `JOIN` operation look like in Neo4J?
+
+    MATCH (p:product)-[r:SOLD_BY]->(s:shop)
+    WHERE EXISTS {
+        MATCH (s)-[:LOCATED_AT]->(:location {city: 'Karlsruhe'})
+    }
+    RETURN p.name, s.name
+
+This query selects all products which are sold in "Karlsruhe" (including the shop name).
+The result looks like this:
+
+	p.name	            | s.name
+    --------------------+----------
+    "USB Cabel"         | "ATU"
+    "Cleaning Spray"    | "ATU"
 
 ## Neo4J with Spring Boot
 
