@@ -4,6 +4,7 @@ title: "My Logging Best Practices"
 date: "2020-01-16"
 categories: 
   - "coding"
+  - "software-design"
 ---
 
 If you are a backend developer like me, logging is the window to your application. 

@@ -143,7 +143,7 @@
 2018-10-15-dynamodb-with-kotlin-and-spring-boot.md
 2018-12-18-dynamodb-with-kotlin-and-spring-boot-part-2.md
 2019
-2019-02-21-concrete-vs-generic-the-story-of-a-data-model.md
+--- DONE --- 2019-02-21-concrete-vs-generic-the-story-of-a-data-model.md
 --- DONE --- 2019-07-12-idempotent-events-with-revision-numbers.md
 2020
 --- DONE --- 2020-01-16-my-logging-best-practices.md
