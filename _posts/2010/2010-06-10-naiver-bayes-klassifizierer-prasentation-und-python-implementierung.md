@@ -4,11 +4,8 @@ title: "Naiver Bayes Klassifizierer (Präsentation & Python-Code)"
 date: "2010-06-10"
 categories: 
   - "academic"
-tags: 
-  - "academic"
   - "data-mining"
-  - "download"
-  - "programming"
+  - "coding"
   - "python"
   - "slides"
 ---

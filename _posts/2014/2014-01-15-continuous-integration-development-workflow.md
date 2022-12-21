@@ -5,14 +5,7 @@ date: "2014-01-15"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "ci-cd"
-  - "hdm"
-  - "programming"
   - "python"
-  - "testing"
-  - "video"
-  - "web"
 ---
 
 This semester I attended an university course called [System Engineering and Management](http://v.hdm-stuttgart.de/studienangebot/vorlesung_detail?vorlid=4800524&sgbvsid=4700833) taught by [Prof. Walter Kriha](http://kriha.de/). The course has a slightly different topic every year and is made up of presentations from students, research assistants and other lecturers. The topic in this year was continuous integration and software deployment. Together with [Jan Müller](https://github.com/jaenthemaen), I set up a continuous integration environment to develop a Python web app.

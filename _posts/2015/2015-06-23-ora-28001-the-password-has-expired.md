@@ -2,12 +2,8 @@
 layout: post
 title: "ORA-28001: the password has expired"
 date: "2015-06-23"
-categories: 
-  - "devops"
-tags: 
+categories:
   - "database"
-  - "oracle"
-  - "password"
 ---
 
 Today I came about a very annoying exception. After my development setup was running smoothly for the last six months, my application was getting database errors today. I know that I didn't break something, so the problem had to be somewhere else - and it was: `ORA-28001: the password has expired`

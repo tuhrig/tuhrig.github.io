@@ -4,14 +4,9 @@ title: "Show next image by clicking images in NextGEN Gallery with shutter effec
 date: "2013-11-13"
 categories: 
   - "coding"
-tags: 
-  - "blogging"
+  - "blog"
   - "html"
   - "javascript"
-  - "picture"
-  - "shutter"
-  - "ui"
-  - "web"
   - "wordpress"
 ---
 

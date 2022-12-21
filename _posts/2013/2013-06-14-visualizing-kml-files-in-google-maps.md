@@ -5,12 +5,8 @@ date: "2013-06-14"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "google"
   - "html"
   - "javascript"
-  - "kml"
-  - "maps"
 ---
 
 The question is easy: **How can I visualize the track of a KML file on Google Maps via JavaScript?**

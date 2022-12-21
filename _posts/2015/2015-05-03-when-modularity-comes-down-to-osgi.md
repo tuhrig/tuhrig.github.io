@@ -4,11 +4,7 @@ title: "When modularity comes down to OSGi"
 date: "2015-05-03"
 categories: 
   - "coding"
-tags: 
   - "java"
-  - "modularity"
-  - "osgi"
-  - "techtrends"
 ---
 
 Last week I attended a tech talk by [Christian Schlichtherle](http://schlichtherle.de), organized by [Euro Staff](http://www.eurostaffgroup.de) in Berlin. The talk was about modularity and its different forms in software development. Christian talked about packages, libraries, APIs, dependency management and - as always when it comes down to modularity - about OSGi.

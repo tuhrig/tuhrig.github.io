@@ -5,15 +5,8 @@ date: "2014-01-16"
 categories: 
   - "academic"
   - "coding"
-  - "private_life"
-tags: 
   - "android"
-  - "app"
   - "data-mining"
-  - "download"
-  - "eclipse"
-  - "hdm"
-  - "media-night"
   - "python"
   - "slides"
 ---

@@ -2,14 +2,9 @@
 layout: post
 title: "Ein Studium in Zahlen"
 date: "2012-02-12"
-categories: 
+categories:
   - "academic"
-  - "private_life"
-tags: 
-  - "academic"
-  - "hdm"
   - "personal"
-  - "statistics"
 ---
 
 [![](images/VVS-Marken-1024x428.png "VVS Marken")](http://tuhrig.de/wp-content/uploads/VVS-Marken.png)

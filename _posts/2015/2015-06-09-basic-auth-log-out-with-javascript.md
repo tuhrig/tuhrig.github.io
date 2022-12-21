@@ -4,8 +4,6 @@ title: "Basic Auth log-out with JavaScript"
 date: "2015-06-09"
 categories: 
   - "coding"
-tags: 
-  - "auth"
   - "html"
   - "javascript"
 ---

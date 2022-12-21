@@ -4,11 +4,7 @@ title: "Tools to understand Java code"
 date: "2012-05-01"
 categories: 
   - "coding"
-tags: 
-  - "eclipse"
   - "java"
-  - "junit"
-  - "programming"
   - "uml"
 ---
 

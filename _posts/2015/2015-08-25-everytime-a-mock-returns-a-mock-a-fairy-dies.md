@@ -4,12 +4,8 @@ title: "Everytime a mock returns a mock a fairy dies"
 date: "2015-08-25"
 categories: 
   - "coding"
-tags: 
   - "design-pattern"
   - "java"
-  - "java-8"
-  - "mockito"
-  - "testing"
 ---
 
 As I was reading about some [Mockito](https://github.com/mockito/mockito) features last week, I stumbled over the following tweet, which really made me laugh:

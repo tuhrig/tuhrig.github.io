@@ -4,11 +4,8 @@ title: "Show next image by clicking images in NextGEN Gallery"
 date: "2012-10-10"
 categories: 
   - "coding"
-tags: 
-  - "blogging"
   - "javascript"
-  - "plugin"
-  - "wordpress"
+  - "blog"
 ---
 
 * * *

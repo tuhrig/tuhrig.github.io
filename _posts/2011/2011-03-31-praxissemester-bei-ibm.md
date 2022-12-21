@@ -5,14 +5,8 @@ date: "2011-03-31"
 categories: 
   - "academic"
   - "coding"
-  - "private_life"
-tags: 
-  - "academic"
-  - "db2"
-  - "ibm"
   - "java"
   - "personal"
-  - "programming"
 ---
 
 Im vergangenen halben Jahr habe ich nicht nur wenig bis nichts gepostet, sondern auch mein Praxissemester in der IBM absolviert. Sieben Monate lang war ich in der Softwareentwicklung der **IBM Deutschland Research & Development GmbH im Labor in Böblingen** tätig. Mein Themengebiet war dabei die Entwicklung eines Java-Frameworks zur Ausführung von SQL-Workload auf der DB2-Datenbank.

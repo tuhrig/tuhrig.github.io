@@ -4,12 +4,7 @@ title: "Java 8 in Eclipse (Juno)"
 date: "2012-10-10"
 categories: 
   - "coding"
-tags: 
-  - "eclipse"
   - "java"
-  - "java-8"
-  - "programming"
-  - "testing"
 ---
 
 * * *

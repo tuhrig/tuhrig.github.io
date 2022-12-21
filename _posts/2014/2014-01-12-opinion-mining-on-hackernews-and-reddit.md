@@ -5,12 +5,8 @@ date: "2014-01-12"
 categories: 
   - "academic"
   - "coding"
-tags: 
   - "data-mining"
-  - "hdm"
   - "python"
-  - "techtrends"
-  - "web"
 ---
 
 # TechTrends

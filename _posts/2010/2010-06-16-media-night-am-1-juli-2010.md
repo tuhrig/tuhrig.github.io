@@ -4,8 +4,6 @@ title: "Media-Night am 1. Juli 2010"
 date: "2010-06-16"
 categories: 
   - "academic"
-tags: 
-  - "academic"
   - "android"
   - "personal"
 ---

@@ -2,13 +2,8 @@
 layout: post
 title: "Posting Speaker Deck Presentations in Wordpress"
 date: "2012-06-26"
-categories: 
-  - "coding"
-tags: 
-  - "blogging"
-  - "php"
-  - "plugin"
-  - "wordpress"
+categories:
+  - "blog"
 ---
 
 I've recently tried to post a [Spreaker Deck](https://speakerdeck.com/) presentation on my Wordpress blog. But a problem using Google's Chrome browser came up to me: Chrome throws a scripting exception when I post the embedded code.

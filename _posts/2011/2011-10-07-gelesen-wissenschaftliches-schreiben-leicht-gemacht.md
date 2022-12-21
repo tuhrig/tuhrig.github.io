@@ -4,10 +4,7 @@ title: "Gelesen: Wissenschaftlich schreiben leicht gemacht"
 date: "2011-10-07"
 categories: 
   - "academic"
-tags: 
-  - "academic"
   - "book"
-  - "ibm"
   - "personal"
 ---
 

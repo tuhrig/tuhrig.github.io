@@ -3,10 +3,7 @@ layout: post
 title: "When your Acer Aspire 5560G doesn't shutdown anymore"
 date: "2013-10-11"
 categories: 
-  - "private_life"
-tags: 
-  - "pain"
-  - "windows"
+  - "personal"
 ---
 
 Last year I bought an **Acer Aspire 5560G** as my second laptop (yes, sometimes two are better than one). A half year later, I was working pretty much with this laptop and decided to upgrade it with a SSD drive. So I bought a brand new **Samsung SSD 840 PRO** with 256 GB. I was very happy. Well, was...

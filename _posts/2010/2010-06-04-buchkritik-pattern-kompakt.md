@@ -4,11 +4,9 @@ title: "Gelesen: Patterns kompakt"
 date: "2010-06-04"
 categories: 
   - "academic"
-tags: 
-  - "academic"
   - "book"
   - "design-pattern"
-  - "programming"
+  - "coding" 
 ---
 
 [![](images/patterns_kompakt_cover-196x300.png "patterns_kompakt_cover")](http://tuhrig.de/wp-content/uploads/patterns_kompakt_cover.png)Design Patterns sind in der aktuellen Softwareentwicklung kaum noch wegzudenken. Sie bilden die Grundlage für Kommunikation, Dokumentation und einen übersichtlichen Code. Und selbst wer Entwurfsmuster nicht bewusst einsetzt, wird schon das ein oder andere Struktur- oder Verhaltensmuster unbemerkt verwendet haben. Denn immer mehr Frameworks und Technologien erzwingen und verwendet diese Muster.

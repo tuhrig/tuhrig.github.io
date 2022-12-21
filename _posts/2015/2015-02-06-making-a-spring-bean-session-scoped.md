@@ -4,7 +4,6 @@ title: "Making a Spring bean session scoped"
 date: "2015-02-06"
 categories: 
   - "coding"
-tags: 
   - "design-pattern"
   - "java"
   - "spring"
@@ -13,12 +12,12 @@ tags:
 Spring can not only inject beans (components, services, entities, however you want to call them), it can also inject them according to a certain scope. This is great if you have state-full objects which belongs (for example) to a dedicated user and not to the whole application. To do that, Spring introduced the `@Scope` annotation.
 
 The usage of `@Scope` is straight forward: just annotate your bean with it and specify the scope to use:
-
-@Component
-@Scope(value="session")
-public class MyComponent {
-    // ...
-}
+    
+    @Component
+    @Scope(value="session")
+    public class MyComponent {
+        // ...
+    }
 
 The `value` of `@Scope` can be one of `singleton` (one single instance for the whole app), `prototype` (a new instance for every injection), `request` (an instance per web request) or `session` (an instance per web session). See [here](http://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/context/annotation/Scope.html).
 
@@ -32,11 +31,11 @@ To solve this problem, Spring provides a proxy mechanism. This means Spring can 
 
 To use such a proxy, you can just add it to the `@Scope` annotation like that:
 
-@Component
-@Scope(value="session", proxyMode = ScopedProxyMode.TARGET\_CLASS)
-public class MyComponent {
-    // ...
-}
+    @Component
+    @Scope(value="session", proxyMode = ScopedProxyMode.TARGET\_CLASS)
+    public class MyComponent {
+        // ...
+    }
 
 If you do so, you will discover the next problem soon: **what about your integration tests you made which probably will fail now as they got no session?** The easiest fix for this, is to add the following bean configuration, which adds a session context for each thread (see the [post of Tarun Sapra](https://tarunsapra.wordpress.com/2011/06/28/junit-spring-session-and-request-scope-beans/) for the original description):
 

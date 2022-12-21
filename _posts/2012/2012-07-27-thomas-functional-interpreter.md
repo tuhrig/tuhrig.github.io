@@ -5,20 +5,7 @@ date: "2012-07-27"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "academic"
-  - "compiler"
-  - "download"
-  - "eclipse"
-  - "hdm"
-  - "interpreter"
   - "java"
-  - "junit"
-  - "language"
-  - "lisp"
-  - "programming"
-  - "reflection"
-  - "thofu"
   - "uml"
 ---
 

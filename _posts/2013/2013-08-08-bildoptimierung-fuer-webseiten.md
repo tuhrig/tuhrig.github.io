@@ -4,13 +4,8 @@ title: "Bildoptimierung für Webseiten"
 date: "2013-08-08"
 categories: 
   - "academic"
-tags: 
-  - "academic"
   - "design-pattern"
-  - "hdm"
   - "html"
-  - "optimizing"
-  - "picture"
   - "slides"
 ---
 

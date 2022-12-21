@@ -4,12 +4,9 @@ title: "Gelesen: Grundkurs Künstliche Intelligenz"
 date: "2010-07-18"
 categories: 
   - "academic"
-tags: 
-  - "academic"
-  - "ai"
   - "book"
   - "data-mining"
-  - "programming"
+  - "coding"
 ---
 
 [![](images/grundkurs_ki-204x300.jpg "grundkurs_ki")](http://tuhrig.de/wp-content/uploads/grundkurs_ki.jpg)Eines der größten Forschungsgebiete in der aktuellen Softwareentwicklung ist wohl die **künstliche Intelligenz** und das **Data Mining**. Es geht um intelligente Lösungen, das Erkennen von Trends und das Lösen von Aufgaben "in denen der Mensch momentan noch die Nase vorne hat" - so beschreibt zumindest Elaine Rich die KI.

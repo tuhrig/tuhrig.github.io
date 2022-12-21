@@ -4,11 +4,8 @@ title: "Gelesen: Oracle 9i für Einsteiger"
 date: "2010-05-14"
 categories: 
   - "academic"
-tags: 
-  - "academic"
-  - "book"
+  - "books"
   - "database"
-  - "oracle"
 ---
 
 Oracle ist eines der weltweit größten Softwareunternehmen und Marktführer im Bereich der Datenbanken. In den meisten Informatikstudiengängen kommt daher einmal der Zeitpunkt, sich mit der Oracle Datenbank näher auseinander zu setzen.

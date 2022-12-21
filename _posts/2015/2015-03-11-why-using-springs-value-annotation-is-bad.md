@@ -4,11 +4,9 @@ title: "Why using Spring's @Value annotation is bad"
 date: "2015-03-11"
 categories: 
   - "coding"
-tags: 
   - "design-pattern"
   - "java"
   - "spring"
-coverImage: "pins-1358849_1280.jpg"
 ---
 
 # @Value

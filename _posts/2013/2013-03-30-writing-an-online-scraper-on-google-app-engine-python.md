@@ -5,15 +5,8 @@ date: "2013-03-30"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "academic"
-  - "ai"
   - "data-mining"
-  - "eclipse"
-  - "google"
-  - "programming"
   - "python"
-  - "techtrends"
 ---
 
 Sometimes you need to **collect data** - for visualization, data-mining, research or whatever you want. But collecting data takes time, especially when time is a major concern and data should be collected over a long period. Typically you would use a dedicated machine (e.g. a server) to do this, rather then using your own laptop or PC to crawl the internet for weeks. But setting up a server can be complicated and time consuming - nothing you would do for a small private project.

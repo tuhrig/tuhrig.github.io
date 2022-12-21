@@ -4,8 +4,6 @@ title: "Gelesen: Ideen der Informatik"
 date: "2010-07-05"
 categories: 
   - "academic"
-tags: 
-  - "academic"
   - "book"
 ---
 

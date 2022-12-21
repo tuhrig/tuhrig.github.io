@@ -5,13 +5,9 @@ date: "2013-05-07"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "academic"
-  - "ai"
   - "data-mining"
   - "html"
   - "python"
-  - "techtrends"
 ---
 
 Parsing HTML is easy. Libraries like [Beautiful Soup](http://www.crummy.com/software/BeautifulSoup/ "Beautiful Soup") give you an compact and straight forward interface to process websites in your preferred programming language. But this is only the first step. The interesting question is: **How to extract the meaningful content of HTML?**

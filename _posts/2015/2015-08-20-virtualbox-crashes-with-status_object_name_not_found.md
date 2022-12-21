@@ -4,11 +4,7 @@ title: "VirtualBox crashes with STATUS_OBJECT_NAME_NOT_FOUND"
 date: "2015-08-20"
 categories: 
   - "devops"
-tags: 
   - "docker"
-  - "vagrant"
-  - "virtualbox"
-  - "windows"
 ---
 
 As I'm a passionate Windows user (sorry...), I often use [VirtualBox](https://www.virtualbox.org) (with [Vagrant](https://www.vagrantup.com)) to pull up a Linux box to use [Docker](https://www.docker.com) or some other "Linux-only" stuff. Usually, this works really fine, but today my VirtualBox crashed with a `STATUS_OBJECT_NAME_NOT_FOUND` error:

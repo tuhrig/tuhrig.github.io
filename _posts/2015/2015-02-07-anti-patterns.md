@@ -5,7 +5,6 @@ date: "2015-02-07"
 categories: 
   - "academic"
   - "coding"
-tags: 
   - "design-pattern"
   - "java"
 ---
@@ -18,10 +17,10 @@ The idea of _anti patterns_ always comes to my mind when I'm reading some old co
 
 You like some examples? Here's a very trivial anti pattern, not a big thing. It's just **a bad habit**. It looks like that:
 
-public class MyFactory {
-    public MyObject createMyObject() { /\* ... \*/ }
-    private MyFactory() { /\* ... \*/ }
-}
+    public class MyFactory {
+        public MyObject createMyObject() { /\* ... \*/ }
+        private MyFactory() { /\* ... \*/ }
+    }
 
 Anything wrong here? No, just a factory. Anything useless? Yes, a little bit. It's very likely to see a class with only static methods (like a factory) to have a private constructor. Why? Because the developer thought it's evil to instantiate it and he must prevent it for the safety of everybody in the room! So he creates something which look like a singleton (but isn't). He does this in every suitable class, because it's his patterns. But it is actually nothing. What would happen if you instantiate such an object? Nothing. And if you call static methods on that object? Nothing, too. It doesn't look good, but it would work and your IDE would warn you. So what problem does it solve? There's none. It just looks like some useful pattern, but actually does nothing but clutter your code. An anti pattern.
 

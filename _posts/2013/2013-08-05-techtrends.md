@@ -5,19 +5,9 @@ date: "2013-08-05"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "academic"
-  - "ai"
-  - "crawling"
   - "data-mining"
-  - "hdm"
-  - "hn"
   - "html"
-  - "programming"
   - "python"
-  - "reddit"
-  - "techtrends"
-  - "web"
 ---
 
 It's done! Last Friday (26th July 2013) was the final presentation of our semester project [TechTrends](http://techtrends.mi.hdm-stuttgart.de/ "TechTrends"). Together with [Raphael Brand](https://github.com/pjuhri "Raphael Brand @ GitHub") and [Hannes Pernpeintner](https://bitbucket.org/hannespernpeintner "Hannes Pernpeintner @ Bitbucket") I worked the last 5 months on this project - and we are really happy about it.

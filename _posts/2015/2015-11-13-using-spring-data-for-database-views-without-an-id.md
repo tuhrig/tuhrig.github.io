@@ -4,7 +4,6 @@ title: "Using Spring Data for database views without an ID"
 date: "2015-11-13"
 categories: 
   - "coding"
-tags: 
   - "database"
   - "java"
   - "spring"

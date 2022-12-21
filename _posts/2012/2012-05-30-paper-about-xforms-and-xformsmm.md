@@ -5,15 +5,9 @@ date: "2012-05-30"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "academic"
   - "html"
   - "javascript"
-  - "programming"
   - "slides"
-  - "ui"
-  - "xforms"
-  - "xml"
 ---
 
 I have currently finished a paper about XForms (and XFormsMM) for an univerity course called [Adaptive User Interfaces](http://www.hdm-stuttgart.de/studienangebot/dozentenplaene/vorlesung_detail?vorlid=5212404 "Adaptive User Interfaces"). The paper gives a general introduction to XForms as well as to XFormsMM. XFormsMM is a (quite theoretical) approach how multi-modal forms can be build on top of XForms. It's based on a [paper](http://lib.tkk.fi/Diss/2007/isbn9789512285662/article9.pdf) of Mikko Honkala and Mikko Pohja and on the idea of extending XForms with modality-dependent style-sheets.

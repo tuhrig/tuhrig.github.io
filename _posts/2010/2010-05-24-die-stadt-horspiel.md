@@ -4,11 +4,6 @@ title: "Die Stadt (Hörspiel)"
 date: "2010-05-24"
 categories: 
   - "academic"
-tags: 
-  - "academic"
-  - "download"
-  - "slides"
-  - "sound"
 ---
 
 Im vergangenen Semester habe ich versucht ein wenig über den Tellerrand eines _Informatikstudiums_ zu schauen und mich in einer kleinen Projektarbeit mit **Sounddesign** beschäftigt. Meine Kommilitonin **Raphaela Butz** und ich, haben uns daran versucht als Klausurleistung eine Kurzgeschichte als Hörspiel zu vertonen.

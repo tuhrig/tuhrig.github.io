@@ -5,13 +5,8 @@ date: "2012-04-28"
 categories: 
   - "academic"
   - "coding"
-tags: 
   - "design-pattern"
   - "java"
-  - "junit"
-  - "programming"
-  - "testing"
-  - "ui"
 ---
 
 Testing an application is hard, but testing an user interface (UI) is even harder. [FEST](http://fest.easytesting.org/ "FEST") addresses this issue for **Java Swing** applications. It enables you to write easy and readable functional tests for your UI. Working together with [JUnit](http://www.junit.org/ "JUnit"), it lets your functional UI tests feel like common unit tests within your test suite.

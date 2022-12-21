@@ -2,24 +2,12 @@
 layout: post
 title: "A GPS diary in four weeks with Play!"
 date: "2013-07-23"
-categories: 
-  - "academic"
-  - "coding"
-tags: 
+categories:
   - "academic"
   - "database"
-  - "hdm"
   - "html"
   - "java"
   - "javascript"
-  - "junit"
-  - "mysql"
-  - "orm"
-  - "play"
-  - "programming"
-  - "sql"
-  - "testing"
-  - "web"
 ---
 
 During the last four weeks I did another small project for one of my university courses this semester. The course was about ORM modelling and abstractions for databases. We did some exercies with Hibernate and discussed diefferent aspects about ORM modelling. At the end of the course, every student made a small web-project using a framework and ORM tool of his choice.

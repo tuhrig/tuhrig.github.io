@@ -4,7 +4,6 @@ title: "Thread pools with Java's ExecutorService"
 date: "2015-02-20"
 categories: 
   - "coding"
-tags: 
   - "design-pattern"
   - "java"
 ---
@@ -15,50 +14,50 @@ The idea was to start a new thread for every data record to migrate. So while th
 
 However, since I got about ~5000 records, I didn't want to spawn a new thread for each of those. 5000 threads (at the same time) would be hard - for my own system as well as for the REST service. So I decided to use Java's `ExecutorService` to spawn a fixed number of threads at any time:
 
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
-
-public class ExecutorServiceTest {
-	
-	public static void main(String\[\] args) throws InterruptedException  {
-		
-		// A maximum of 10 threads will run at any time!
-		ExecutorService executor = Executors.newFixedThreadPool(10);
-		
-		// Submit and execute 100 threads!
-		for(int i = 0; i < 100; i++) {
-			final int number = i;
-			executor.execute(new Runnable() {
-				@Override
-				public void run() {
-					System.out.println("Running " + number);
-					sleep();
-					System.out.println("Finishing " + number);
-				}
-			});
-	    }
-
-        System.out.println("Waiting...");
-
-		// No more threads can be submitted to the executor service!
-		executor.shutdown();
-		
-		// Blocks until all 100 submitted threads have finished!
-	    executor.awaitTermination(Long.MAX\_VALUE, TimeUnit.MINUTES);
-	    
-	    System.out.println("Done");
-	}
-
-	private static void sleep() {
-		try {
-			Thread.sleep(2000);
-		} 
-		catch (InterruptedException e) {
-			throw new RuntimeException(e);
-		}
-	}
-}
+    import java.util.concurrent.ExecutorService;
+    import java.util.concurrent.Executors;
+    import java.util.concurrent.TimeUnit;
+    
+    public class ExecutorServiceTest {
+        
+        public static void main(String\[\] args) throws InterruptedException  {
+            
+            // A maximum of 10 threads will run at any time!
+            ExecutorService executor = Executors.newFixedThreadPool(10);
+            
+            // Submit and execute 100 threads!
+            for(int i = 0; i < 100; i++) {
+                final int number = i;
+                executor.execute(new Runnable() {
+                    @Override
+                    public void run() {
+                        System.out.println("Running " + number);
+                        sleep();
+                        System.out.println("Finishing " + number);
+                    }
+                });
+            }
+    
+            System.out.println("Waiting...");
+    
+            // No more threads can be submitted to the executor service!
+            executor.shutdown();
+            
+            // Blocks until all 100 submitted threads have finished!
+            executor.awaitTermination(Long.MAX\_VALUE, TimeUnit.MINUTES);
+            
+            System.out.println("Done");
+        }
+    
+        private static void sleep() {
+            try {
+                Thread.sleep(2000);
+            } 
+            catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
+    }
 
 In the example above I do the following:
 

@@ -2,11 +2,8 @@
 layout: post
 title: "Reisebericht: von Lindau an die Riviera mit dem Fahrrad"
 date: "2010-08-04"
-categories: 
-  - "private_life"
-tags: 
+categories:
   - "personal"
-  - "sports"
 ---
 
 Wie auch schon im vergangenen Jahr, haben ein Freund und ich die Semesterferien genutzt, die Räder gesattelt und uns zu eine kleinen Alpenüberquerung aufgemacht. Während es 2009 noch von Lindau aus an den Gardasee ging, sollte unser diesjähriges Ziel die **italienische Riviera** sein. Geplant war die ca. 550 km lange Strecke in fünf Etappen, plus je einem Tag zur Ruhepause und zu Heimfahrt. Außerdem hatten wir einen letzten Tag als Puffer geplant, den wir letzten Endes auch gut gebrauchen konnten, aber noch einmal von Anfang an:

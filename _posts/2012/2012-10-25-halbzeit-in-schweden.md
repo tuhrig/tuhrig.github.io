@@ -4,15 +4,7 @@ title: "Halbzeit in Schweden"
 date: "2012-10-25"
 categories: 
   - "academic"
-  - "private_life"
-tags: 
-  - "ersamus"
-  - "linkoping"
-  - "liu"
   - "personal"
-  - "picture"
-  - "sweden"
-  - "travel"
 ---
 
 Wow, das ging eigentlich ziemlich schnell. Nachdem ich gestern meine zweite Klausur für diese Periode geschrieben habe, beginnt am kommenden Montag offiziell die zweite Halbzeit des Wintersemesters. Da fahren die Schweden nämlich ihren etwas eigenen Bildungsweg und unterteilen das Semester kurzerhand nochmal in zwei Hälften (inklusive je einer Klausurphasen).

@@ -5,8 +5,6 @@ date: "2014-01-17"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "ci-cd"
   - "programming"
   - "python"
 ---

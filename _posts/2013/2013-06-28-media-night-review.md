@@ -4,13 +4,8 @@ title: "Media Night Review"
 date: "2013-06-28"
 categories: 
   - "academic"
-tags: 
-  - "academic"
-  - "hdm"
-  - "media-night"
   - "personal"
   - "python"
-  - "techtrends"
 ---
 
 Raphael Brand, Hannes Pernpeintner and I presented our semester project yesterday on the Media Night at our university. It was very nice to met some interested people, to answer their questions and to show what we did during the last four months. Thanks.

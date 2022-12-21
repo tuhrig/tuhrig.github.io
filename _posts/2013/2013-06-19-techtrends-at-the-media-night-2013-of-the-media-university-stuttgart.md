@@ -5,13 +5,8 @@ date: "2013-06-19"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "ai"
   - "data-mining"
-  - "hdm"
-  - "programming"
   - "python"
-  - "techtrends"
 ---
 
 During this summer semester, two friends of mine and I made a student project called [TechTrends](http://techtrends.mi.hdm-stuttgart.de/ "TechTrends"). TechTrends is a web application that lets you search for articles and trends in the field of computer science. We crawl posts from [Reddit](http://www.reddit.com/r/programming/ "Reddit") and [Hackernews](https://news.ycombinator.com/ "Hackernews") and provide an intelligent search on them. You can type in a key-word (e.g. _bitcoin_) and get a timeline showing you when articles for this topic have been published.

@@ -4,12 +4,9 @@ title: "Nepomuk - digitales Metronom für Android-Geräte"
 date: "2010-07-15"
 categories: 
   - "academic"
-tags: 
-  - "academic"
   - "android"
-  - "download"
   - "java"
-  - "programming"
+  - "coding"
   - "slides"
 ---
 

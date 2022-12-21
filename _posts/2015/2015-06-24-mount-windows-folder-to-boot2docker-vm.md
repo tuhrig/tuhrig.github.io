@@ -4,10 +4,7 @@ title: "Mount Windows folder to Boot2Docker VM"
 date: "2015-06-24"
 categories: 
   - "devops"
-tags: 
   - "docker"
-  - "vm"
-  - "windows"
 ---
 
 I just stumbled over a post on Stackoverflow ([http://stackoverflow.com/questions/30864466/whats-the-best-way-to-share-files-from-windows-to-boot2docker-vm](http://stackoverflow.com/questions/30864466/whats-the-best-way-to-share-files-from-windows-to-boot2docker-vm)) with the question how to mount a Windows folder to a [Boot2Docker](https://github.com/boot2docker/boot2docker) VM. Although the steps are a little bit confusing, in the end it is not difficult to do.

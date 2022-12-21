@@ -5,18 +5,11 @@ date: "2013-07-16"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "academic"
-  - "ai"
   - "data-mining"
-  - "hdm"
   - "html"
   - "javascript"
-  - "programming"
   - "python"
   - "slides"
-  - "techtrends"
-  - "ui"
 ---
 
 Next Friday (July 26th 2013) the final presentation of [TechTrends](http://techtrends.mi.hdm-stuttgart.de/) will take place at our [university](http://www.hdm-stuttgart.de/). The presentation will take about 60 min and will cover topics like architecture, crawling, data storage and front end design. Everybody interested is welcome (please send me an [email](mailto:tuhrig.de@gmail.com) before). Here's the whole schedule for next week:

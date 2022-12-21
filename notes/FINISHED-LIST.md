@@ -1,5 +1,5 @@
 2010
-2010-05-11-hello-world.md
+--- DONE --- 2010-05-11-hello-world.md
 2010-05-12-einfuhrung-in-smalltalk.md
 2010-05-14-buchkritik-oracle-9i-fur-einsteiger.md
 2010-05-16-decorator-fassade-desing-patterns.md
@@ -28,7 +28,7 @@
 2012-06-26-java-micro-performance-measuring.md
 2012-06-26-posting-speaker-deck-presentations-in-wordpress.md
 2012-07-27-thomas-functional-interpreter.md
-2012-07-28-siedler-von-catan-in-uml.md
+--- DONE --- 2012-07-28-siedler-von-catan-in-uml.md
 2012-08-24-valkommen-till-linkoping.md
 2012-10-10-java-8-in-eclipse-juno.md
 2012-10-10-show-next-image-by-clicking-image-in-nextgen-gallery.md

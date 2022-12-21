@@ -4,10 +4,7 @@ title: "Implementing Interfaces and Abstract Classes on the fly"
 date: "2012-05-18"
 categories: 
   - "coding"
-tags: 
   - "java"
-  - "programming"
-  - "reflection"
 ---
 
 I'm currently working on a small LISP-like language for an university course of mine. Hence, the the language is implemented in Java, I wanted to make the Java library accessible withing my language. Though loading classes, invoking methods and reading fields is just one of two ways - _from_ Java _to_ my language. But what about the other direction? **How can I implement Java interfaces and abstract classes within my language to pass them to Java class as listeners, observers or handlers?**

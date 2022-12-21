@@ -4,8 +4,6 @@ title: "Gelesen: Learning UML"
 date: "2011-07-03"
 categories: 
   - "academic"
-tags: 
-  - "academic"
   - "book"
   - "uml"
 ---

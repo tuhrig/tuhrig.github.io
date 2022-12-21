@@ -4,11 +4,9 @@ title: "Reflections in Java: \"private\" umgehen"
 date: "2010-05-20"
 categories: 
   - "coding"
-tags: 
   - "academic"
   - "design-pattern"
   - "java"
-  - "programming"
 ---
 
 Eine angemessene und gesunde __Selbstreflexion__ ist ja von Zeit zu Zeit eine schöne Sache. Man sollte sich schließlich selbst kennen und einschätzen können. Ähnlich sieht es bei **Code** aus. Und auch wenn **Java** nur sehr eingeschränkte Mittel für **Reflections** beinhaltet - z.B. im Verglich mit Smalltalk - hat mich der Vortrag zweier Kommilitonen doch ein wenig zum experimentieren gebracht. Anbei ein paar Zeilen Code, mit denen man sehr schnell und einfach **das Sicherheitskonzept hinter Java** und dem Schlüsselwort **private** umgehen kann:

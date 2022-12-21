@@ -4,11 +4,8 @@ title: "What static methods for interfaces tell you about the Java community"
 date: "2013-10-31"
 categories: 
   - "coding"
-tags: 
-  - "community"
   - "design-pattern"
   - "java"
-  - "java-8"
 ---
 
 Recently I was putting together some code for an OSGi plugin at work. I created an interface to add listeners to an extension point. The code looked something like this:

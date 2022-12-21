@@ -2,12 +2,8 @@
 layout: post
 title: "Some impressions of Aix-en-Provence"
 date: "2013-02-12"
-categories: 
-  - "private_life"
-tags: 
+categories:
   - "personal"
-  - "picture"
-  - "travel"
 ---
 
 I spend the last few weeks in **Aix-en-Provence**, a small town in the very south of France close to Marseille. My girlfriend is currently studying there as a part of her master-degree. Since the weather is not so bad there (especially compared to Germany and Sweden), I got the chance to shot some good photos. Enjoy.

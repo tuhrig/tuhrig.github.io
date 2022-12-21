@@ -5,18 +5,10 @@ date: "2013-07-25"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "academic"
-  - "ai"
   - "data-mining"
-  - "gensim"
-  - "hdm"
   - "javascript"
-  - "programming"
   - "python"
   - "slides"
-  - "techtrends"
-  - "web"
 ---
 
 Tomorrow morning is the final presentation of our semester project [TechTrends](http://techtrends.mi.hdm-stuttgart.de/ "TechTrends"). I posted several articles about TechTrends (see [here](http://tuhrig.de/tag/techtrends/ "TechTrends Posts")) and I will definetely post one more after tomorrow. But for now, here's our final presentation.

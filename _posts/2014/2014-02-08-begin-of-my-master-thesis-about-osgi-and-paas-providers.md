@@ -5,12 +5,8 @@ date: "2014-02-08"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "academic"
   - "cloud"
-  - "informatica"
   - "java"
-  - "osgi"
   - "personal"
 ---
 

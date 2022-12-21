@@ -5,17 +5,10 @@ date: "2014-01-08"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "academic"
-  - "ai"
   - "data-mining"
   - "database"
-  - "hdm"
   - "html"
-  - "media-night"
-  - "programming"
   - "slides"
-  - "techtrends"
 ---
 
 [![opinion-trends-poster](images/opinion-trends-poster.png)](http://opiniontrends.mi.hdm-stuttgart.de/)

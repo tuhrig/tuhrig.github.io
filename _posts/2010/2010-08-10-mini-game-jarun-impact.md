@@ -4,14 +4,8 @@ title: "Mini-Game: JARUN Impact"
 date: "2010-08-10"
 categories: 
   - "academic"
-tags: 
-  - "academic"
   - "c"
-  - "download"
-  - "gaming"
-  - "jarun"
-  - "programming"
-  - "xna"
+  - "coding"
 ---
 
 In diesem Semester habe ich für die Vorlesung **Entwicklung von Computerspielen** ein kleines Mini-Game als Prüfungsleistung entwickelt. Herausgekommen ist dabei **JARUN Impact**, eine Art 2D-Space-Shooter.

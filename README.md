@@ -40,6 +40,15 @@ It was migrated to Jakyll / githup.io in December 2022.
 - "software-design" 
 - "devops"
 - "personal" 
+- "books"
+- "python" 
+- "data-mining"
+- "android"
+- "slides"
+- "c"
+- "uml"
+- "cloud"
+- "docker"
 
 ## Theme and styling
 

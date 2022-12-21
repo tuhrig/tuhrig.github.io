@@ -5,14 +5,8 @@ date: "2014-01-22"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "ci-cd"
   - "data-mining"
-  - "install"
-  - "linux"
   - "python"
-  - "techtrends"
-  - "web"
 ---
 
 [OpinionTrends](http://OpinionTrends.mi.hdm-stuttgart.de/) is build with [Python](http://www.python.org/) and [Flask](http://flask.pocoo.org/). Therefore you can run it without any additional server right out of the box. Batteries included! However, it is much more common and much more efficient if you run it with a web server and an application server. A widely used combination for Python web applications is [nginx](http://nginx.org/) together with [uWSGI](http://projects.unbit.it/uwsgi/). In this tutorial I want to show how we set up this two tools to run [TechTrends](http://techtrends.mi.hdm-stuttgart.de/) and [OpinionTrends](http://opiniontrends.mi.hdm-stuttgart.de/). The tutorial starts at the very beginning and the only thing I assume is that you run a Linux machine with [Python](http://www.python.org/) and [easy\_install](https://pypi.python.org/pypi/setuptools).

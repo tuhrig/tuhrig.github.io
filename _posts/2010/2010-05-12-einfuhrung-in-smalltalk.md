@@ -4,7 +4,8 @@ title: "Einführung in Smalltalk"
 date: "2010-05-12"
 categories: 
   - "academic"
-  - "programming"
+  - "coding"
+  - "slides" 
 ---
 
 Im Laufe des vergangenen Semesters (WS09/10), habe ich eine Einführung in die Programmiersprache **Smalltalk** gegeben. Die Präsentation war im Rahmen einer Vorlesung "Aktuelle Programmiersprachen" - wobei das "aktuelle" nicht unbedingt wörtlich zunehmen ist.

@@ -4,12 +4,9 @@ title: "Review: Modular Cloud Apps with OSGi"
 date: "2014-02-04"
 categories: 
   - "academic"
-tags: 
   - "book"
   - "cloud"
   - "java"
-  - "osgi"
-  - "review"
 ---
 
 Currently, I am doing my literature studies for my master thesis about OSGi and PaaS. One of the first books I read was [Modular Cloud Apps with OSGi](http://shop.oreilly.com/product/0636920028086.do) from Paul Baker and Bert Ertman published by [O'Reilly](http://www.oreilly.com). Here is what I think about it. Maybe it is a little bit ironic sometimes, but I hope you get the point.

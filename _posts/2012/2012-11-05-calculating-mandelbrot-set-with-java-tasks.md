@@ -5,10 +5,7 @@ date: "2012-11-05"
 categories: 
   - "academic"
   - "coding"
-tags: 
-  - "academic"
   - "java"
-  - "liu"
 ---
 
 Last week, my new courses for the second period of this semester started. Since one of the courses is about [multicore and GPU programming](http://www.ida.liu.se/~TDDD56/index.en.shtml), I wanted to prepare myself a little bit. As a small practice for our first lab next Thursday, I implemented the Mandelbrot set in Java. I used tasks to draw the picture in parallel and made some measurements.

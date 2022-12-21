@@ -4,11 +4,8 @@ title: "Decorator & Fassade (Desing Patterns)"
 date: "2010-05-16"
 categories: 
   - "academic"
-tags: 
-  - "academic"
   - "design-pattern"
-  - "download"
-  - "programming"
+  - "coding"
   - "slides"
 ---
 
