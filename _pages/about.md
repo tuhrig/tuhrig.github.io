@@ -6,7 +6,7 @@ permalink: /about
 
 My name is Thomas and I'm a software developer based by [Karlsruhe](https://de.wikipedia.org/wiki/Karlsruhe), Germany. 
 [Spring Boot](https://spring.io/projects/spring-boot) is my weapon of choice, whether with [Java](https://www.java.com/) or [Kotlin](https://kotlinlang.org/).
-I love to build micro-service and to write code which is easy to read.
+I love to build microservices and to write code which is easy to read.
 Currently, I'm working for [Bringmeister GmbH](http://bringmeister.de) fully remote.
 
 <img class="no-border" src="/images/avatar-round.png">
