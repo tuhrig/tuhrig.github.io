@@ -13,7 +13,7 @@
 /* BASE RULES */
 /**************/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+// @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 html {
   font-size: 100%;
@@ -1156,3 +1156,15 @@ Modules - reusable parts of our design
 //@import "highlights";
 @import "darcula";
 @import "svg-icons";
+
+.speakerdeck-iframe {
+  border: 0px;
+  background: padding-box padding-box rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0px auto;
+  padding: 0px;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 40px;
+  width: 560px;
+  height: 420px;
+}
