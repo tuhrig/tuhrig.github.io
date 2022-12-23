@@ -139,7 +139,7 @@
 2018-05-30-testing-configurationproperties-in-spring-boot.md
 2018-06-04-find-vs-get.md
 2018-06-27-dont-depend-on-details-an-example.md
-2018-08-01-event-sourcing-with-kotlin.md
+--- DONE --- 2018-08-01-event-sourcing-with-kotlin.md
 --- DONE --- 2018-10-15-dynamodb-with-kotlin-and-spring-boot.md
 --- DONE --- 2018-12-18-dynamodb-with-kotlin-and-spring-boot-part-2.md
 2019

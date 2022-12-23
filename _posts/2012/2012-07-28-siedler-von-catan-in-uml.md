@@ -15,8 +15,7 @@ Entstanden als Abschlussarbeit für einen Hochschulkurs.
 <iframe 
     name="thridPartyContent" 
     class="speakerdeck-iframe" 
-    frameborder="0"  
-    title="Siedler von Catan in UML" 
+    frameborder="0"
     allowfullscreen="true" 
     mozallowfullscreen="true" 
     webkitallowfullscreen="true"
