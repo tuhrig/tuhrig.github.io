@@ -130,12 +130,12 @@
 2017-12-10-messages-vs-events-vs-commands.md
 2017-12-21-simple-permission-handling-in-angularjs.md
 2018
-2018-01-09-a-component-based-test-architecture-for-protractor-and-angularjs-e2e-tests.md
-2018-02-01-generating-pdfs-with-java-flying-saucer-and-thymeleaf-part-2.md
-2018-03-15-self-made-event-dispatcher.md
-2018-05-05-ddd-with-kotlin.md
-2018-05-14-encapsulated-modules-with-springs-configuration.md
-2018-05-23-object-updater-pattern-in-kotlin.md
+--- DONE --- 2018-01-09-a-component-based-test-architecture-for-protractor-and-angularjs-e2e-tests.md
+--- DONE --- 2018-02-01-generating-pdfs-with-java-flying-saucer-and-thymeleaf-part-2.md
+--- DONE --- 2018-03-15-self-made-event-dispatcher.md
+--- DONE --- 2018-05-05-ddd-with-kotlin.md
+--- DONE --- 2018-05-14-encapsulated-modules-with-springs-configuration.md
+--- DONE --- 2018-05-23-object-updater-pattern-in-kotlin.md
 --- DONE --- 2018-05-30-testing-configurationproperties-in-spring-boot.md
 --- DONE --- 2018-06-04-find-vs-get.md
 --- DONE --- 2018-06-27-dont-depend-on-details-an-example.md
