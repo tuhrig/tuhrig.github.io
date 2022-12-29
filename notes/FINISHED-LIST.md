@@ -127,8 +127,8 @@
 2017-06-13-generating-pdfs-with-java-flying-saucer-and-thymeleaf.md
 2017-11-08-spring-boot-boilerplate-project-with-activemq-and-angularjs.md
 2017-11-15-saga-pattern-with-spring-boot-and-activemq.md
-2017-12-10-messages-vs-events-vs-commands.md
-2017-12-21-simple-permission-handling-in-angularjs.md
+--- DONE --- 2017-12-10-messages-vs-events-vs-commands.md
+--- DONE --- 2017-12-21-simple-permission-handling-in-angularjs.md
 2018
 --- DONE --- 2018-01-09-a-component-based-test-architecture-for-protractor-and-angularjs-e2e-tests.md
 --- DONE --- 2018-02-01-generating-pdfs-with-java-flying-saucer-and-thymeleaf-part-2.md
