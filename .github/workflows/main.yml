@@ -16,8 +16,8 @@ jobs:
       run: bundle install
     - name: Build with Jekyll  # Build the site
       run: JEKYLL_ENV=production bundle exec jekyll build
-    - name: 🚚 Get latest code
-      uses: actions/checkout@v2
+#    - name: 🚚 Get latest code
+#      uses: actions/checkout@v2
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
