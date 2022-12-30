@@ -1,10 +1,21 @@
-on: push
 name: 🚀 Deploy website on push
+on:
+  push:
+    branches:
+      - master
 jobs:
   web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-ruby@v1
+      with:
+        ruby-version: '2.7'
+    - name: Setup Environment # Install the gems in the gemfile
+      run: bundle install
+    - name: Build with Jekyll  # Build the site
+      run: JEKYLL_ENV=production bundle exec jekyll build
     - name: 🚚 Get latest code
       uses: actions/checkout@v2
     - name: 📂 Sync files
@@ -13,3 +24,5 @@ jobs:
         server: hosting106745.a2f21.netcup.net
         username: hosting106745
         password: ${{ secrets.ftp_password }}
+        local-dir: ./_site/
+        server-dir: ./httpdocs/
