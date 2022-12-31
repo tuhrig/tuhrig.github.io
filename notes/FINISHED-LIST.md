@@ -94,8 +94,8 @@
 2015-06-24-mount-windows-folder-to-boot2docker-vm.md
 2015-08-20-virtualbox-crashes-with-status_object_name_not_found.md
 2015-08-25-everytime-a-mock-returns-a-mock-a-fairy-dies.md
-2015-11-13-using-spring-data-for-database-views-without-an-id.md
-2015-11-19-two-way-binding-for-url-parameters-in-angularjs.md
+--- DONE --- 2015-11-13-using-spring-data-for-database-views-without-an-id.md
+--- DONE --- 2015-11-19-two-way-binding-for-url-parameters-in-angularjs.md
 2015-12-09-create-random-test-objects-with-java-reflection.md
 2015-12-23-anti-pattern-dont-use-optionals-for-data-repositories.md
 2016
@@ -153,7 +153,7 @@
 --- DONE --- 2021-06-16-graphql-with-kotlin-spring-boot.md
 --- DONE --- 2021-07-06-testing-configurationproperties-in-spring-boot-2-5-x.md
 2022
---- DONE --- 2021-12-13-remaking-my-blog-with-jekyll.md
---- DONE --- 2021-12-12-neo4j-with-spring-boot.md
-2023
+--- DONE --- 2021-12-31-remaking-my-blog-with-jekyll.md
+UNPUBLISHED
 --- DONE --- 2023-01-03-monitoring-latency-in-a-microservice-architecture.md
+--- DONE --- 2021-12-12-neo4j-with-spring-boot.md
