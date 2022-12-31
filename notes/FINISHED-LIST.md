@@ -124,9 +124,9 @@
 2017-05-22-queues-vs-topics-vs-virtual-topics-in-activemq.md
 2017-05-29-virtual-topics-in-activemq.md
 2017-06-01-effective-error-handling-for-activemq-topics.md
-2017-06-13-generating-pdfs-with-java-flying-saucer-and-thymeleaf.md
+--- DONE --- 2017-06-13-generating-pdfs-with-java-flying-saucer-and-thymeleaf.md
 2017-11-08-spring-boot-boilerplate-project-with-activemq-and-angularjs.md
-2017-11-15-saga-pattern-with-spring-boot-and-activemq.md
+--- DONE --- 2017-11-15-saga-pattern-with-spring-boot-and-activemq.md
 --- DONE --- 2017-12-10-messages-vs-events-vs-commands.md
 --- DONE --- 2017-12-21-simple-permission-handling-in-angularjs.md
 2018
