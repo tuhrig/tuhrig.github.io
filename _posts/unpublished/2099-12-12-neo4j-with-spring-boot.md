@@ -42,7 +42,7 @@ Below you can see a dependency graph from the [demo project](https://github.com/
 - There are products which are sold by shops
 - Products are compatible with each other or respectively require another product
 
-![](/images/2022/12/neo4j-graph.png)
+![](/images/2023/01/neo4j-graph.png)
 
 If we try to break down the data model, we will have the following:
 
@@ -51,7 +51,7 @@ If we try to break down the data model, we will have the following:
 
 In a relational SQL database this would look like this:
 
-![](/images/2022/12/neo4j-as-sql.png)
+![](/images/2023/01/neo4j-as-sql.png)
 
 - 3 tables for the entities (`shop`, `location` and `product`)
 - 4 tables for the relations (_many-to-many_ relationship)
