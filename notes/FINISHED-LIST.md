@@ -8,7 +8,7 @@
 2010-06-04-buchkritik-pattern-kompakt.md
 2010-06-10-naiver-bayes-klassifizierer-prasentation-und-python-implementierung.md
 2010-06-16-media-night-am-1-juli-2010.md
-2010-06-21-134.md
+--- DONE --- 2010-06-21-134.md
 2010-07-05-gelesen-ideen-der-informatik.md
 2010-07-15-nepomuk-digitales-metronom-fur-android.md
 2010-07-18-gelesen-grundkurs-kunstliche-intelligenz.md
@@ -123,9 +123,9 @@
 2017-03-15-login-by-captcha-and-authenticate-with-json-web-token.md
 2017-05-22-queues-vs-topics-vs-virtual-topics-in-activemq.md
 2017-05-29-virtual-topics-in-activemq.md
-2017-06-01-effective-error-handling-for-activemq-topics.md
+--- DONE --- 2017-06-01-effective-error-handling-for-activemq-topics.md
 --- DONE --- 2017-06-13-generating-pdfs-with-java-flying-saucer-and-thymeleaf.md
-2017-11-08-spring-boot-boilerplate-project-with-activemq-and-angularjs.md
+--- DONE --- 2017-11-08-spring-boot-boilerplate-project-with-activemq-and-angularjs.md
 --- DONE --- 2017-11-15-saga-pattern-with-spring-boot-and-activemq.md
 --- DONE --- 2017-12-10-messages-vs-events-vs-commands.md
 --- DONE --- 2017-12-21-simple-permission-handling-in-angularjs.md
