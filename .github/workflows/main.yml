@@ -24,3 +24,4 @@ jobs:
         password: ${{ secrets.ftp_password }}
         local-dir: ./_site/
         server-dir: ./httpdocs/
+        state-name: .ftp-deploy-sync-state-1.json
