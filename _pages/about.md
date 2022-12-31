@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /about/
 ---
 
 My name is Thomas and I'm a software developer based by [Karlsruhe](https://de.wikipedia.org/wiki/Karlsruhe), Germany. 

@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Contact"
-date: "2010-05-11"
-permalink: /contact
+permalink: /contact/
 ---
 
 ## How to reach me
