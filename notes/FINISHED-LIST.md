@@ -119,10 +119,10 @@
 2017-01-18-coursera-full-stack-web-development-capstone-project.md
 --- DONE --- 2017-01-23-testing-angularjs-components-with-mocked-html-documents.md
 2017-01-25-the-disqus-affiliated-links-program.md
-2017-02-03-using-configurationproperties-to-separate-service-and-configuration.md
-2017-03-15-login-by-captcha-and-authenticate-with-json-web-token.md
-2017-05-22-queues-vs-topics-vs-virtual-topics-in-activemq.md
-2017-05-29-virtual-topics-in-activemq.md
+--- DONE --- 2017-02-03-using-configurationproperties-to-separate-service-and-configuration.md
+--- DONE --- 2017-03-15-login-by-captcha-and-authenticate-with-json-web-token.md
+--- DONE --- 2017-05-22-queues-vs-topics-vs-virtual-topics-in-activemq.md
+--- DONE --- 2017-05-29-virtual-topics-in-activemq.md
 --- DONE --- 2017-06-01-effective-error-handling-for-activemq-topics.md
 --- DONE --- 2017-06-13-generating-pdfs-with-java-flying-saucer-and-thymeleaf.md
 --- DONE --- 2017-11-08-spring-boot-boilerplate-project-with-activemq-and-angularjs.md

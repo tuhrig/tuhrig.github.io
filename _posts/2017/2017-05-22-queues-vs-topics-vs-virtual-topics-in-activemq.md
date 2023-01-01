@@ -9,13 +9,19 @@ categories:
   - "software-design"
 ---
 
-[ActiveMQ](http://activemq.apache.org) provides a variety of different messaging patterns. While queues and topics are the most famous ones, virtual topics can combine the best of both worlds: multiple consumers with their own dedicated queue.
+[ActiveMQ](http://activemq.apache.org) provides a variety of different messaging patterns. 
+While queues and topics are the most known ones, virtual topics can combine the best of both worlds: 
+multiple consumers with their own dedicated queue.
 
 ## Queues
 
-![](images/Screen-Shot-2017-05-22-at-09.05.41.png)
+![](/images/2017/05/active-mq-queue.png)
 
-Queues are the most obvious messaging pattern implemented by ActiveMQ. They provide a direct channel between a producer and a consumer. The producer creates messages, while the consumer reads one after another. After a message was read, it's gone. If multiple consumers are registered for a queue, only one of them will get the message.
+Queues are the most common messaging pattern implemented by ActiveMQ. 
+They provide a direct channel between a producer and a consumer. 
+The producer creates messages, while the consumer reads one after another. 
+After a message was read, it's gone. 
+If multiple consumers are registered for a queue, only one of them will get the message.
 
 **Pros**
 
@@ -24,14 +30,15 @@ Queues are the most obvious messaging pattern implemented by ActiveMQ. They prov
 
 **Cons**
 
-- Only one consumer can get the message
-- Implies a coupling between producer and consumer as it's an one-to-one relation
+- Only one consumer can get a message
+- Implies a coupling between producer and consumer as it's a one-to-one relation
 
 ## Topics
 
-![](images/Screen-Shot-2017-05-22-at-09.05.54.png)
+![](/images/2017/05/active-mq-topic.png)
 
-Topics implement an one-to-many channel between a producer and multiple consumers. Unlike an queue, every consumer will receive a message send by the producer.
+Topics implement a one-to-many channel between a producer and multiple consumers. 
+Unlike a queue, every consumer will receive a message send by the producer.
 
 **Pros**
 
@@ -41,13 +48,14 @@ Topics implement an one-to-many channel between a producer and multiple consumer
 **Cons**
 
 - More complicated communication flow
-- A message cannot be recovered for a single listener
+- A message cannot be recovered for a single listener (all will get it)
 
 ## Virtual Topics
 
-![](images/Screen-Shot-2017-05-22-at-09.06.04.png)
+![](/images/2017/05/active-mq-virtual-topic.png)
 
-Virtual topics combine both approaches. While the producer sends messages to a topic, consumers will receive a copy of the message on their own dedicated queue.
+Virtual topics combine both approaches. 
+While the producer sends messages to a topic, consumers will receive a copy of the message on their own dedicated queue.
 
 **Pros**
 
@@ -61,7 +69,10 @@ Virtual topics combine both approaches. While the producer sends messages to a t
 
 ## Conclusion
 
-Both, queues and topics, have their own drawbacks. While queues tighten producer and consumer, topics lack of an easy way to recover errors of a single consumer. Virtual topics are provide a solution for both problems. Producer and consumers are decoupled by a publish-and-subscribe pattern while error recovery can be done on individual queues.
+Both, queues and topics, have their own drawbacks. 
+While queues tighten producer and consumer, topics lack of an easy way to recover errors of a single consumer. 
+Virtual topics provide a solution for both problems. 
+Producer and consumers are decoupled by a publish-and-subscribe pattern while error recovery can be done on individual queues.
 
 ## More
 

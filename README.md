@@ -68,6 +68,25 @@ Do it like this:
 
 See: https://stackoverflow.com/questions/52324134/getting-an-liquid-exception-liquid-syntax-error-while-using-jekyll
 
+## Load iframe content
+
+<iframe
+name="thridPartyContent"
+class="speakerdeck-iframe"
+frameborder="0"
+allowfullscreen="true"
+mozallowfullscreen="true"
+webkitallowfullscreen="true"
+data-ratio="1.3333333333333333">
+</iframe>
+
+<script>
+if(consentGiven()) {
+    const site = "https://speakerdeck.com/player/50141a0aa049a30002005abb";
+    document.getElementsByName('thridPartyContent')[0].src = site;
+}
+</script>
+
 ## License
 
 MIT
