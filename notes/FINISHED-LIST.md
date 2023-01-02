@@ -114,11 +114,11 @@
 2016-11-10-angularjs-provider-and-app-configuration.md
 2016-11-11-dont-use-transitive-dependencies-in-angularjs-modules.md
 2016-11-14-java-vs-javascript-build-tools.md
-2016-12-31-coursera-full-stack-web-development-course.md
+--- DONE --- 2016-12-31-coursera-full-stack-web-development-course.md
 2017
-2017-01-18-coursera-full-stack-web-development-capstone-project.md
+--- DONE --- 2017-01-18-coursera-full-stack-web-development-capstone-project.md
 --- DONE --- 2017-01-23-testing-angularjs-components-with-mocked-html-documents.md
-2017-01-25-the-disqus-affiliated-links-program.md
+--- DONE --- 2017-01-25-the-disqus-affiliated-links-program.md
 --- DONE --- 2017-02-03-using-configurationproperties-to-separate-service-and-configuration.md
 --- DONE --- 2017-03-15-login-by-captcha-and-authenticate-with-json-web-token.md
 --- DONE --- 2017-05-22-queues-vs-topics-vs-virtual-topics-in-activemq.md

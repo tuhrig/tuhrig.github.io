@@ -17,12 +17,14 @@ Together, we came up with an interesting topic:
 
 ## Background
 
-At Bringmeister, most of the software we developed during the last 5 years is composed of microservices.
+At Bringmeister, all software we developed during the last 5 years is composed of microservices.
 Information drops into the system at one point, moves from service to service and eventually reaches its goal.
 
 A typical dataflow would look like this:
 
 ```
+ ------------------------- direction of data flow ----------------------->
+
  +-----+
  | ERP | -- Master Data ----v
  +-----+            +-------------+        +--------------+    

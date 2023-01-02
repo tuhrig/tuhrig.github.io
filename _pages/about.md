@@ -18,3 +18,5 @@ I worked for [Westernacher Solutions](http://westernacher-solutions.com) in [Ber
 In my free time, I like to practice [BJJ](https://www.psv-karlsruhe.de/brazilian-jiu-jitsu) at the PSV Karlsruhe.
 
 You find me on [XING](https://www.xing.com/profiles/Thomas_Uhrig7) and [LinkedIn](http://www.linkedin.com/pub/thomas-uhrig/85/6bb/39).
+
+Here's my [CV](https://docs.google.com/document/d/1sTEOepO8miIKLsc3_Bw2aNr0niA3EAPRUT_Z5tUPsBw/edit?usp=sharing).

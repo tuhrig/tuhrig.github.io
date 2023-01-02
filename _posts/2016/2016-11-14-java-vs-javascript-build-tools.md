@@ -8,11 +8,15 @@ categories:
   - "javascript"
 ---
 
-When you come from a Java background like I do and you take a look at JavaScript build tools, the sheer mass of tools is overwhelming.The eco system is evolving very fast with new tools coming up every couple of months. Below, I tried to give a comparison between Java build tools and their equivalent in the JavaScript world.
+When you come from a Java background like I do and you take a look at JavaScript, the sheer mass of tools is overwhelming.
+The ecosystem is evolving very fast with new tools coming up every couple of months. 
+Below, I tried to give a comparison between Java build tools and their equivalent in the JavaScript world.
 
 ## Preface
 
-The list below aims to show similarities - not differences. Of course, every tool has its own set of features and individual strengths. The tools on the left are not the very as the tools on right, just for another software stack. However, to see some similarities might help to better understand how the JavaScript world works.
+The list below aims to show similarities - not differences. 
+Of course, every tool has its own set of features and individual strengths. 
+The tools on the left are not the very as the tools on right, just for another software stack. However, to see some similarities might help to better understand how the JavaScript world works.
 
 ## Runtime
 
