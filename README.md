@@ -7,6 +7,7 @@ This right here is my personal blog.
 I use this blog to write about software development and related topics.
 Back in the days, this blog was hosted by a Wordpress instance.
 It was migrated to Jakyll / githup.io in December 2022.
+You can read it at [https://tuhrig.de](https://tuhrig.de/).
 
 ## Run me locally
 
@@ -60,16 +61,19 @@ The theme and layout is forked from:
 
 Do it like this:
 
-{% raw %}
-```html
-<html>
-```
-{% endraw %}
+````
+    {% raw %}
+    ```html
+    <html>
+    ```
+    {% endraw %}
+````
 
 See: https://stackoverflow.com/questions/52324134/getting-an-liquid-exception-liquid-syntax-error-while-using-jekyll
 
 ## Load iframe content
 
+```
 <iframe
 name="thridPartyContent"
 class="speakerdeck-iframe"
@@ -86,6 +90,7 @@ if(consentGiven()) {
     document.getElementsByName('thridPartyContent')[0].src = site;
 }
 </script>
+```
 
 ## License
 

@@ -72,7 +72,7 @@
 2014-04-04-java-8-for-eclipse-kepler-via-the-eclipse-marketplace.md
 2014-05-02-development-speed-the-docker-remote-api-and-a-pattern-of-frustration.md
 2014-05-05-docker-vs-heroku.md
-2014-05-09-layering-of-docker-images.md
+--- DONE --- 2014-05-09-layering-of-docker-images.md
 2014-05-10-how-to-know-you-are-inside-a-docker-container.md
 2014-05-13-cloud-vendors-with-windows.md
 2014-05-21-docker-registry-rest-api.md
