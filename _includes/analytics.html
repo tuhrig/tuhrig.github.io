@@ -1,5 +1,4 @@
 {% if site.google_analytics %}
-	<!-- Google Analytics -->
 	<script>
 		if(consentGiven()) {
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -10,9 +9,8 @@
 			ga('create', '{{ site.google_analytics }}', 'auto');
 			ga('send', 'pageview', {
 			  'page': '{{ site.baseurl }}{{ page.url }}',
-			  'title': '{{ page.title | replace: "'", "\\'" }}'
+			  'title': '{{ page.title | replace: "\'", "" }}'
 			});
 		}
 	</script>
-	<!-- End Google Analytics -->
 {% endif %}
