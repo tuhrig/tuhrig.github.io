@@ -50,6 +50,7 @@ You can read it at [https://tuhrig.de](https://tuhrig.de/).
 - "uml"
 - "cloud"
 - "docker"
+- "testing"
 
 ## Theme and styling
 
