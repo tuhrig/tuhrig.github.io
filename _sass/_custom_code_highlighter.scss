@@ -11,7 +11,7 @@ code {
 
 .highlighter-rouge {
   background-color: #FAFAFA;
-  color: #FF554A;
+  // color: #FF554A;
 }
 
 // Based on:
@@ -94,3 +94,4 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .vi { color: #bb60d5 } /* Name.Variable.Instance */
 .highlight .vm { color: #bb60d5 } /* Name.Variable.Magic */
 .highlight .il { color: #40a070 } /* Literal.Number.Integer.Long */
+//.highlight .py { color: #000000 } /* Name.Property */
