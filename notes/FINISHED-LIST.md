@@ -106,10 +106,10 @@
 2016-02-05-use-ranges-with-ngrepeat.md
 2016-02-17-inject-mocks-with-springs-contextconfiguration.md
 2016-05-18-expression-based-security-with-spring-security.md
-2016-05-21-using-the-console-on-windows.md
-2016-05-22-angularjs-intensive-workshop-by-robin-bohmsymetics-gmbh.md
-2016-10-20-booting-an-angularjs-application.md
-2016-10-31-reusable-angularjs-form-components.md
+--- DONE --- 2016-05-21-using-the-console-on-windows.md
+--- DONE --- 2016-05-22-angularjs-intensive-workshop-by-robin-bohmsymetics-gmbh.md
+--- DONE --- 2016-10-20-booting-an-angularjs-application.md
+--- DONE --- 2016-10-31-reusable-angularjs-form-components.md
 --- DONE --- 2016-11-07-programming-to-an-interface.md
 --- DONE --- 2016-11-10-angularjs-provider-and-app-configuration.md
 --- DONE --- 2016-11-11-dont-use-transitive-dependencies-in-angularjs-modules.md
