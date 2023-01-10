@@ -110,10 +110,10 @@
 2016-05-22-angularjs-intensive-workshop-by-robin-bohmsymetics-gmbh.md
 2016-10-20-booting-an-angularjs-application.md
 2016-10-31-reusable-angularjs-form-components.md
-2016-11-07-programming-to-an-interface.md
-2016-11-10-angularjs-provider-and-app-configuration.md
-2016-11-11-dont-use-transitive-dependencies-in-angularjs-modules.md
-2016-11-14-java-vs-javascript-build-tools.md
+--- DONE --- 2016-11-07-programming-to-an-interface.md
+--- DONE --- 2016-11-10-angularjs-provider-and-app-configuration.md
+--- DONE --- 2016-11-11-dont-use-transitive-dependencies-in-angularjs-modules.md
+--- DONE --- 2016-11-14-java-vs-javascript-build-tools.md
 --- DONE --- 2016-12-31-coursera-full-stack-web-development-course.md
 2017
 --- DONE --- 2017-01-18-coursera-full-stack-web-development-capstone-project.md
