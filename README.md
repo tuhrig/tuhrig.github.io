@@ -76,7 +76,7 @@ See: https://stackoverflow.com/questions/52324134/getting-an-liquid-exception-li
 
 ```
 <iframe
-name="thridPartyContent"
+name="thirdPartyContent"
 class="speakerdeck-iframe"
 frameborder="0"
 allowfullscreen="true"
@@ -88,7 +88,7 @@ data-ratio="1.3333333333333333">
 <script>
 if(consentGiven()) {
     const site = "https://speakerdeck.com/player/50141a0aa049a30002005abb";
-    document.getElementsByName('thridPartyContent')[0].src = site;
+    document.getElementsByName('thirdPartyContent')[0].src = site;
 }
 </script>
 ```
