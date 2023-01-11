@@ -6,7 +6,7 @@ title: Posts Archive
 
 <div id="archives">
   <section id="archive">
-     <h3>Most Recent Posts</h3>
+     <h3 style="text-align:left;">Most Recent Posts</h3>
       {%for post in site.posts %}
       {% unless post.next %}
       <ul class="this">
@@ -17,7 +17,7 @@ title: Posts Archive
           {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
           {% if year != nyear %}
       </ul>
-      <h2 style="text-align:left;">{{ post.date | date: '%Y' }}</h2>
+      <h3 style="text-align:left;">{{ post.date | date: '%Y' }}</h3>
       <ul class="past">
           {% endif %}
 <!--

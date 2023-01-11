@@ -9,16 +9,17 @@
         background: #222;
         color: rgba(255,255,255,0.8);
     }
-    #cookie-notice a {display: inline-block; cursor: pointer; margin-left: 0.5rem;}
+    #cookie-notice a {display: inline-block; cursor: pointer;}
     @media (max-width: 767px) {
         #cookie-notice span {display: block; padding-top: 3px; margin-bottom: 1rem;}
         #cookie-notice a {position: relative; bottom: 4px;}
     }
 </style>
 <div id="cookie-notice">
-    <span>We would like to use third party cookies and scripts to improve the functionality of this website.</span>
-    <a id="cookie-notice-accept" class="btn btn-primary btn-sm">Approve</a>
-    <!-- <a href="/privacy" class="btn btn-primary btn-sm">More info</a> -->
+    <span>We would like to use third party cookies and scripts to improve the functionality of this website. See our <a href="{{ site.baseurl }}/privacy-policy">privacy policy</a>.</span>
+    <br>
+    <button id="cookie-notice-accept" class="btn-yes">Approve</button>
+    <!-- <button id="cookie-notice-reject" class="btn-no">Reject</button> -->
 </div>
 
 <script>

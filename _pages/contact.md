@@ -4,6 +4,8 @@ title: "Contact"
 permalink: /contact/
 ---
 
+# Contact & Legal Notice
+
 ## How to reach me
 
 Feel free to contact me. 

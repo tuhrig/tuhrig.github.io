@@ -93,6 +93,16 @@ if(consentGiven()) {
 </script>
 ```
 
+## Privacy Policy
+
+Used:
+
+    https://www.ratgeberrecht.eu/leistungen/muster-datenschutzerklaerung.html 
+
+Looks also good:
+
+    https://www.gdprprivacynotice.com/download.php
+
 ## License
 
 MIT
