@@ -11,7 +11,7 @@
 
       <script>
 
-            // if(consentGiven()) {
+            if(consentGiven()) {
 
                   const script = document.createElement('script');
                   script.src = "https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_ga4 }}";
@@ -20,8 +20,9 @@
                   window.dataLayer = window.dataLayer || [];
                   function gtag(){dataLayer.push(arguments);}
                   gtag('js', new Date());
-                  gtag('config', "{{ site.google_analytics_ga4 }}");
-            // }
+                  gtag('config', "{{ site.google_analytics_ga4 }}", { 'anonymize_ip': true });
+            }
 
       </script>
+
 {% endif %}

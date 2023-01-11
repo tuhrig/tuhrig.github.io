@@ -64,7 +64,8 @@ h2 {
 }
 
 @media (min-width: 769px){
-	.post h2::before, .post h2::after {
+//	.post h2::before, .post h2::after {
+	 h2::before, h2::after {
 	    content: "";
 	    display: inline-block;
 	    vertical-align: middle;
@@ -367,6 +368,34 @@ nav {
       color: $blue;
     }
   }
+}
+
+legal-nav {
+  float: right;
+  margin-top: 20px; // @TODO: Vertically middle align
+  font-family: $helveticaNeue;
+  font-size: 12px;
+
+  @include mobile {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 10px;
+  }
+
+  a {
+    margin-left: 20px;
+    color: $darkGray;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    @include mobile {
+      margin: 0 10px;
+      color: $blue;
+    }
+  }
+
 }
 
 //
@@ -829,6 +858,22 @@ Modules - reusable parts of our design
   height: 21px;
   vertical-align: bottom;
   margin: 0 -2px 0 -5px;
+}
+
+.btn-yes {
+  line-height: 25px;
+  text-decoration: none;
+  background: #ececec;
+  border: none;
+  font-size: 16px;
+  padding: 0px 7px;
+  display: inline-block;
+  border-radius: 4px;
+  position: relative;
+  top: -1px;
+  margin-left: 5px;
+  color: black;
+
 }
 
 @media only screen and (min-width: 1170px) {

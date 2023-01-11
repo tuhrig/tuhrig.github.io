@@ -123,7 +123,7 @@ The demo shows a small use-case and provides a web UI which helps to see what is
 ## Presentation
 
 <iframe
-name="thridPartyContent"
+name="thirdPartyContent"
 class="speakerdeck-iframe"
 frameborder="0"
 allowfullscreen="true"
@@ -135,7 +135,7 @@ data-ratio="1.3333333333333333">
 <script>
 if(consentGiven()) {
     const site = "https://speakerdeck.com/player/81ce3989e09d4582b7a59ed6c05e9af3";
-    document.getElementsByName('thridPartyContent')[0].src = site;
+    document.getElementsByName('thirdPartyContent')[0].src = site;
 }
 </script>
 

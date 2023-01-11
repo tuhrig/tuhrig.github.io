@@ -13,7 +13,7 @@ Eine Abbildung von [Siedler von Catan](https://www.catan.de/) in [UML](https://d
 Entstanden als Abschlussarbeit für einen Hochschulkurs.
 
 <iframe 
-    name="thridPartyContent" 
+    name="thirdPartyContent" 
     class="speakerdeck-iframe" 
     frameborder="0"
     allowfullscreen="true" 
@@ -25,7 +25,7 @@ Entstanden als Abschlussarbeit für einen Hochschulkurs.
 <script>
 if(consentGiven()) {
     const site = "https://speakerdeck.com/player/50141a0aa049a30002005abb";
-    document.getElementsByName('thridPartyContent')[0].src = site;
+    document.getElementsByName('thirdPartyContent')[0].src = site;
 }
 </script>
 

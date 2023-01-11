@@ -31,7 +31,7 @@ footer-links:
   pinterest:
   rss: rss
   twitter: ThomasUhrig
-  stackoverflow: 847064
+  stackoverflow: users/847064/thomas-uhrig
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
   playconsole:
@@ -42,7 +42,7 @@ footer-links:
 disqus: 
 
 # Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-31082343-1 # old
+# google_analytics: UA-31082343-1 # old, not using anymore
 google_analytics_ga4: G-FN1H9M56KP # new
 
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
