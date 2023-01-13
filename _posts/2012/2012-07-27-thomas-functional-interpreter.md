@@ -9,28 +9,52 @@ categories:
   - "uml"
 ---
 
-I just finished a small functional interpreter for an [university course](http://www.hdm-stuttgart.de/studienangebot/vorlesungsverzeichnis/vorlesung_detail?vorlid=5210910). To be precise, the interpreter itself is not functional, but it understands a functional, **LISP-like language/syntax**. The whole project is written in Java 7 and provides an interface to all Java classes on the class-path, too.
+I just finished a small functional interpreter for an [university course](http://www.hdm-stuttgart.de/studienangebot/vorlesungsverzeichnis/vorlesung_detail?vorlid=5210910). 
+To be precise, the interpreter itself is not functional, but it understands a functional, **LISP-like syntax**. 
+The whole project is written in Java 7 and provides an interface to all Java classes on the class-path, too.
 
-I also tried to create **a small IDE in Swing**. I built an editor with **syntax-highlighting** and **code-completion** (thanks to the [RSyntaxTextArea project](http://fifesoft.com/rsyntaxtextarea/)), an environment **inspector** and a small **debugger** to keep track of the stack. Take a look at it.
+I also tried to create a small IDE in Swing. 
+I built an editor with syntax-highlighting and code-completion (thanks to the [RSyntaxTextArea project](http://fifesoft.com/rsyntaxtextarea/)), an environment inspector and a small debugger to keep track of the stack. 
+Take a look at it.
 
-I called it **ThoFu** for _Thomas' Functional Interpreter_. I think it teats good... You can get some brief impressions from the slideshow below.
+I called it **ThoFu** for _Thomas' Functional Interpreter_. 
+You can get some brief impressions from the images below.
 
-\[gallery ids="1997,1998,1999,2000,2001,2002,2003,2004,2005,2006"\]
+The whole project is open source, you can find it on [my GitHub account](https://github.com/tuhrig/functional-interpreter).
+It contains the actual code, all libraries, screen-shots, unit tests and (of course) some documentation like UML diagrams.
 
-The whole project is open, you can find it as an Eclipse project on [my Bitbucket account](https://bitbucket.org/wordless). It contains the actual code, all libraries, screen-shots, unit tests and (of course) some documentation like UML diagrams. Here are the links to the GIT repository:
+Here is the executable JAR-file.
+Just download it, double-click it and go-ahead:
 
-**Bitbucket**: [https://bitbucket.org/wordless/thofu-interpreter](https://bitbucket.org/wordless/thofu-interpreter) **Git**: [https://bitbucket.org/wordless/thofu-interpreter.git](https://bitbucket.org/wordless/thofu-interpreter.git)
+- 📥 [ThoFu Interpreter.jar](https://github.com/tuhrig/functional-interpreter/raw/master/ThoFu%20Interpreter.jar)
+- 📋 [README.md](https://github.com/tuhrig/functional-interpreter/blob/master/README.md)
 
-Here is the executable JAR-file (**Note: You need Java 7**). Just download it, double-click it and go-ahead:
+## Screenshots
 
-**Executable program**: [ThoFu Interpreter.jar](https://bitbucket.org/wordless/thofu-interpreter/src/master/ThoFu%20Interpreter/ThoFu%20Interpreter.jar) **Read-Me**: [README.md](https://bitbucket.org/wordless/thofu-interpreter/src/master/ThoFu%20Interpreter/src/de/tuhrig/thofu/gui/README.md)
+![](/images/2012/07/hello_world.png)
+![](/images/2012/07/code_completion.png)
+![](/images/2012/07/debugging.png)
+![](/images/2012/07/creating_jframe.png)
+![](/images/2012/07/history_view_of_creating_an_object.png)
+![](/images/2012/07/inspector.png)
+![](/images/2012/07/run_files.png)
+![](/images/2012/07/working_with_different_files.png)
+![](/images/2012/07/working_with_objects.png)
 
-And this is how it goes. First a simple "hello world" program:
+## Examples
 
+And this is how it goes. 
+First a simple "hello world" program:
+
+```lisp
 (print "hello world")
+```
 
-Now, a more sophisticated one. Here's a quicksort-algorithm for my interpreter. It contains some user-defined functions, multi-line statements and some comments.
+Now, a more sophisticated one. 
+Here's a [quicksort-algorithm](https://www.geeksforgeeks.org/quick-sort/) for my interpreter. 
+It contains some user-defined functions, multi-line statements and some comments.
 
+```lisp
 ; Utils
 (define mylength (lambda (L) (if (eq? L null) 0 (+ (mylength   (rest L)) 1))))
 (define (append2 l1 l2) (if (eq? l1 null) l2 (cons (first l1) (append2 (rest l1) l2))))
@@ -50,9 +74,15 @@ Now, a more sophisticated one. Here's a quicksort-algorithm for my interpreter. 
 			
 ; Usage
 (quicksort '(8 5 2 3 1))
+```
 
-And this is how the Java API works. The code will create a JFrame with a JButton and a JLabel. When you press the button, the listener will change the text of the label from "_click me_" to "_hello_". The syntax is inspired by the [Java Dot Notation](http://jscheme.sourceforge.net/jscheme/doc/javadot.html) by [Peter Norvig](http://norvig.com/). I used the [Apache Commons Lang](http://commons.apache.org/lang) library for the reflection-tricks to load class and so on.
+And this is how the Java API works. 
+The code will create a `JFrame` with a `JButton` and a `JLabel`. 
+When you press the button, the listener will change the text of the label from "_click me_" to "_hello_". 
+The syntax is inspired by the [Java Dot Notation](http://jscheme.sourceforge.net/jscheme/doc/javadot.html) by [Peter Norvig](http://norvig.com/). 
+I used the [Apache Commons Lang](http://commons.apache.org/lang) library for the reflection-tricks to load class and so on.
 
+```lisp
 ; Imports
 (import "java.awt.event.\*")
 (import "javax.swing.\*")
@@ -83,9 +113,12 @@ And this is how the Java API works. The code will create a JFrame with a JButton
 (.add win label)
 (.addActionListener button int)
 (.setVisible win visible))
+```
 
-You can just copy and paste the code snippets into the editor or save them as common text files and open them. They are also in the repository. The JUnit tests contain many more examples as well.
+You can just copy and paste the code snippets into the editor or save them as common text files and open them. 
+They are also in the repository. 
+The JUnit tests contain many more examples as well.
 
-For those who are interested in the topic, you can find my resources (libraries, tool and literature) in the [Read-Me](https://bitbucket.org/wordless/thofu-interpreter/src/master/ThoFu%20Interpreter/src/de/tuhrig/thofu/gui/README.md).
+For those who are interested in the topic, you can find my resources (libraries, tool and literature) in the 📋 [README.md](https://github.com/tuhrig/functional-interpreter/blob/master/README.md)).
 
-**Best regards,** Thomas Uhrig
+**Best regards,** Thomas.

@@ -1,10 +1,10 @@
 2010
 --- DONE --- 2010-05-11-hello-world.md
-2010-05-12-einfuhrung-in-smalltalk.md
-2010-05-14-buchkritik-oracle-9i-fur-einsteiger.md
-2010-05-16-decorator-fassade-desing-patterns.md
-2010-05-20-reflections-in-java-private-umgehen.md
-2010-05-24-die-stadt-horspiel.md
+--- DONE --- 2010-05-12-einfuhrung-in-smalltalk.md
+--- DONE --- 2010-05-14-buchkritik-oracle-9i-fur-einsteiger.md
+--- DONE --- 2010-05-16-decorator-fassade-desing-patterns.md
+--- DONE --- 2010-05-20-reflections-in-java-private-umgehen.md
+--- DONE --- 2010-05-24-die-stadt-horspiel.md
 2010-06-04-buchkritik-pattern-kompakt.md
 2010-06-10-naiver-bayes-klassifizierer-prasentation-und-python-implementierung.md
 2010-06-16-media-night-am-1-juli-2010.md
@@ -27,7 +27,7 @@
 2012-05-30-paper-about-xforms-and-xformsmm.md
 2012-06-26-java-micro-performance-measuring.md
 2012-06-26-posting-speaker-deck-presentations-in-wordpress.md
-2012-07-27-thomas-functional-interpreter.md
+--- DONE --- 2012-07-27-thomas-functional-interpreter.md
 --- DONE --- 2012-07-28-siedler-von-catan-in-uml.md
 2012-08-24-valkommen-till-linkoping.md
 2012-10-10-java-8-in-eclipse-juno.md
@@ -71,7 +71,7 @@
 2014-04-01-java-8-in-eclipse-kepler-and-luna.md
 2014-04-04-java-8-for-eclipse-kepler-via-the-eclipse-marketplace.md
 2014-05-02-development-speed-the-docker-remote-api-and-a-pattern-of-frustration.md
-2014-05-05-docker-vs-heroku.md
+--- DONE --- 2014-05-05-docker-vs-heroku.md
 --- DONE --- 2014-05-09-layering-of-docker-images.md
 2014-05-10-how-to-know-you-are-inside-a-docker-container.md
 2014-05-13-cloud-vendors-with-windows.md
