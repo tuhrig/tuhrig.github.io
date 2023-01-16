@@ -5,7 +5,7 @@
 --- DONE --- 2010-05-16-decorator-fassade-desing-patterns.md
 --- DONE --- 2010-05-20-reflections-in-java-private-umgehen.md
 --- DONE --- 2010-05-24-die-stadt-horspiel.md
-2010-06-04-buchkritik-pattern-kompakt.md
+--- DONE --- 2010-06-04-buchkritik-pattern-kompakt.md
 2010-06-10-naiver-bayes-klassifizierer-prasentation-und-python-implementierung.md
 2010-06-16-media-night-am-1-juli-2010.md
 --- DONE --- 2010-06-21-134.md

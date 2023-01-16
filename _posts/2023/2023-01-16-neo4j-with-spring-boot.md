@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Neo4J with Spring Boot"
-date: "2099-12-12"
+date: "2023-01-16"
 categories: 
   - "coding"
   - "java"
@@ -10,11 +10,11 @@ categories:
 ---
 
 Over the last ten years, I worked with a lot of different database.
-I worked with traditional SQL databases such as DB2 and Oracle in a professional context.
-NoSQL databases such as DynamoDB have been my best friends during the last five years at Bringmeister. 
-On side projects I also touched stuff like MongoDB. 
+I worked with traditional SQL databases such as [DB2](https://www.ibm.com/products/db2) and [Oracle](https://www.oracle.com/database/) in a professional context.
+NoSQL databases such as [DynamoDB](https://aws.amazon.com/dynamodb/) have been my best friends during the last five years at [Bringmeister](https://www.bringmeister.de/). 
+On side projects I also touched stuff like [MongoDB](https://www.mongodb.com/). 
 However, I never worked with a graph-database up till now. 
-Time to change that!
+Time to change that with [Neo4J](https://neo4j.com/)!
 
 ## Graph Databases
 
@@ -74,10 +74,10 @@ So how does a `JOIN` operation look like in Neo4J?
 This query selects all products which are sold in "Karlsruhe" (including the shop name).
 The result looks like this:
 
-	p.name	            | s.name
-    --------------------+----------
-    "USB Cabel"         | "ATU"
-    "Cleaning Spray"    | "ATU"
+	| p.name              | s.name
+    +---------------------+----------
+    | "USB Cabel"         | "ATU"
+    | "Cleaning Spray"    | "ATU"
 
 ## Neo4J with Spring Boot
 

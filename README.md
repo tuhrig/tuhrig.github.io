@@ -20,6 +20,9 @@ You can read it at [https://tuhrig.de](https://tuhrig.de/).
     # Run Jekyll to see the blog
     bundle exec jekyll serve
 
+    # And just in case
+    kill -9 $(lsof -ti:4000)
+
 ## Categories
 
 - "coding"

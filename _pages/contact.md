@@ -37,3 +37,34 @@ if(consentGiven()) {
     document.getElementsByName('thirdPartyContent')[0].src = site;
 }
 </script>
+
+## Legal Notice
+
+The content on this blog, including text, images, and other forms of media, is provided for informational and entertainment purposes only. 
+The owner of this blog makes no representations as to the accuracy or completeness of any information on this site or found by following any link on this site.
+
+The owner of this blog will not be liable for any errors or omissions in this information nor for the availability of this information. 
+The owner will not be liable for any losses, injuries, or damages from the display or use of this information.
+
+The views and opinions expressed on this blog are purely the personal views of the author. 
+Any product claim, statistic, quote or other representation about a product or service should be verified with the manufacturer, provider or party in question.
+
+This blog is not intended to provide legal, financial, or professional advice. 
+If you require such advice, please consult a licensed professional in your area.
+
+This blog may contain links to external websites. 
+These links are provided as a convenience and for informational purposes only. 
+The owner of this blog does not endorse or take responsibility for the content or accuracy of external websites.
+
+Visiting external links is done at your own risk. 
+The owner of this blog is not responsible for any damages or losses that may occur from accessing external links.
+
+Please be aware that external websites may have different privacy policies and terms of use than this blog. 
+By accessing external links, you agree to be bound by the terms and conditions of those websites.
+
+The owner of this blog reserves the right to remove or edit any external links at any time without notice.
+
+By accessing this blog, you agree to be bound by the terms of this legal notice. 
+If you do not agree to the terms of this legal notice, please do not access or use this blog.
+
+**Last Updated:** 16. January 2023
