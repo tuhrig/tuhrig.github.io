@@ -9,12 +9,12 @@ categories:
   - "coding" 
 ---
 
-![](/images/2010/06/patterns_kompakt_cover.png)
-
-[Design Patterns](https://refactoring.guru/design-patterns) sind in der Softwareentwicklung nicht wegzudenken. 
-Sie bilden die Grundlage für Kommunikation, Dokumentation und übersichtlichen Code. 
-Und selbst wer Entwurfsmuster nicht bewusst einsetzt, wird schon das ein oder andere Struktur- oder Verhaltensmuster unbemerkt verwendet haben. 
+[Design Patterns](https://refactoring.guru/design-patterns) sind in der Softwareentwicklung nicht wegzudenken.
+Sie bilden die Grundlage für Kommunikation, Dokumentation und übersichtlichen Code.
+Und selbst wer Entwurfsmuster nicht bewusst einsetzt, wird schon das ein oder andere Struktur- oder Verhaltensmuster unbemerkt verwendet haben.
 Denn immer mehr Frameworks und Technologien erzwingen und verwenden diese Muster.
+
+![](/images/2010/06/patterns_kompakt_cover.png)
 
 Seit dem Erscheinen des Buchs "Design Patterns" der [Gang of Four](https://springframework.guru/gang-of-four-design-patterns/) im Jahre 1994 sind viele Werke und Papers über dieses Thema veröffentlicht worden.
 Endlich hatte die "Sache" einen Namen. 

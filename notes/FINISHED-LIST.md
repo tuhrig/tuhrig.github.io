@@ -6,14 +6,14 @@
 --- DONE --- 2010-05-20-reflections-in-java-private-umgehen.md
 --- DONE --- 2010-05-24-die-stadt-horspiel.md
 --- DONE --- 2010-06-04-buchkritik-pattern-kompakt.md
-2010-06-10-naiver-bayes-klassifizierer-prasentation-und-python-implementierung.md
-2010-06-16-media-night-am-1-juli-2010.md
+--- DONE --- 2010-06-10-naiver-bayes-klassifizierer-prasentation-und-python-implementierung.md
+--- DONE --- 2010-06-16-media-night-am-1-juli-2010.md
 --- DONE --- 2010-06-21-134.md
-2010-07-05-gelesen-ideen-der-informatik.md
-2010-07-15-nepomuk-digitales-metronom-fur-android.md
-2010-07-18-gelesen-grundkurs-kunstliche-intelligenz.md
-2010-08-04-reisebericht-von-lindau-an-die-riviera-mit-dem-fahrrad.md
-2010-08-10-mini-game-jarun-impact.md
+--- DONE --- 2010-07-05-gelesen-ideen-der-informatik.md
+--- DONE --- 2010-07-15-nepomuk-digitales-metronom-fur-android.md
+--- DONE --- 2010-07-18-gelesen-grundkurs-kunstliche-intelligenz.md
+--- DONE --- 2010-08-04-reisebericht-von-lindau-an-die-riviera-mit-dem-fahrrad.md
+--- DONE --- 2010-08-10-mini-game-jarun-impact.md
 2011
 2011-03-31-praxissemester-bei-ibm.md
 2011-07-03-gelesen-learning-uml.md
@@ -154,6 +154,5 @@
 --- DONE --- 2021-07-06-testing-configurationproperties-in-spring-boot-2-5-x.md
 2022
 --- DONE --- 2021-12-31-remaking-my-blog-with-jekyll.md
-UNPUBLISHED
 --- DONE --- 2023-01-03-monitoring-latency-in-a-microservice-architecture.md
 --- DONE --- 2021-12-12-neo4j-with-spring-boot.md

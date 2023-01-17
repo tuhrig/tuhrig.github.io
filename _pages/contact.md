@@ -6,11 +6,9 @@ permalink: /contact/
 
 # Contact & Legal Notice
 
-## How to reach me
-
 Feel free to contact me. 
 If you have any questions about a blog post, highly disagree with me or want to discuss something - I'm happy about any feedback.
-Just write me an [e-mail](mailto:mail@tuhrig.de) or contact me over any social media platform linked below.
+Just write me an [📧 e-mail](mailto:mail@tuhrig.de) or contact me on any social media platform linked below.
 
 ## Person in Charge 
 
