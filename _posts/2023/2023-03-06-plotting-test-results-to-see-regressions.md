@@ -59,7 +59,7 @@ https://api.bitbucket.org/2.0/repositories/bringmeister/acceptance-test/pipeline
 If you run the request, you will get a result like this.
 It contains everything we need to visualize our build results over time.
 
-```
+```json
 {
    "page":1,
    "pagelen":2,
@@ -222,6 +222,9 @@ This lead to an increase of technical dept for multiple weeks.
 - **(C)** In section C we started to tackle this problem.
 We actively reduced technical debt and put our focus on bug-fixing.
 The rate of failing End-2-End tests dropped as a consequence.
+
+As you can see, we can (try to) correlate the increase of the failure rate with some kind of events.
+This helps us to spot problematic features or changes we did in the past.
 
 # Summary
 
