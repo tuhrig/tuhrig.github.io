@@ -11,7 +11,10 @@ You can read it at [https://tuhrig.de](https://tuhrig.de/).
 
 ## Run me locally
 
-    gem install jekyll bundler
+    brew install ruby
+    export GEM_HOME="$HOME/.gem"
+    gem install bundler
+    gem install jekyll 
     bundle init
  
     # Install the used gems
