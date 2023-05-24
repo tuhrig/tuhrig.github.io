@@ -57,6 +57,7 @@ You can read it at [https://tuhrig.de](https://tuhrig.de/).
 - "cloud"
 - "docker"
 - "testing"
+- "vaadin"
 
 ## Theme and styling
 
