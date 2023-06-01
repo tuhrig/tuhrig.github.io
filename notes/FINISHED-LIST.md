@@ -99,13 +99,13 @@
 2015-12-09-create-random-test-objects-with-java-reflection.md
 2015-12-23-anti-pattern-dont-use-optionals-for-data-repositories.md
 2016
-2016-01-06-resizing-vagrant-box-disk-space.md
-2016-01-07-gradles-bootrun-and-windows-command-length-limit.md
-2016-01-17-a-mocked-spring-security-configuration-for-testing.md
-2016-01-20-testing-angularjs-directives-with-jasmine.md
-2016-02-05-use-ranges-with-ngrepeat.md
-2016-02-17-inject-mocks-with-springs-contextconfiguration.md
-2016-05-18-expression-based-security-with-spring-security.md
+--- DONE --- 2016-01-06-resizing-vagrant-box-disk-space.md
+--- DONE --- 2016-01-07-gradles-bootrun-and-windows-command-length-limit.md
+--- DONE --- 2016-01-17-a-mocked-spring-security-configuration-for-testing.md
+--- DONE --- 2016-01-20-testing-angularjs-directives-with-jasmine.md
+--- DONE --- 2016-02-05-use-ranges-with-ngrepeat.md
+--- DONE --- 2016-02-17-inject-mocks-with-springs-contextconfiguration.md
+--- DONE --- 2016-05-18-expression-based-security-with-spring-security.md
 --- DONE --- 2016-05-21-using-the-console-on-windows.md
 --- DONE --- 2016-05-22-angularjs-intensive-workshop-by-robin-bohmsymetics-gmbh.md
 --- DONE --- 2016-10-20-booting-an-angularjs-application.md
