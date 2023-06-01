@@ -10,7 +10,7 @@ categories:
 > **Update**: I updated the [example on GitHub](https://github.com/tuhrig/Testing_Configuration_Properties) to Spring 2.5.X! 
 > The latest post on this topic is [here](/testing-configurationproperties-in-spring-boot-2-5-x).
 
-I recently worked on [a library](https://github.com/bringmeister/aws-kinesis-spring-boot-starter) for using [AWS Kinesis](https://aws.amazon.com/kinesis) in [Spring Boot](https://projects.spring.io/spring-boot/). 
+I recently worked on [a library](https://github.com/tuhrig/aws-kinesis-spring-boot-starter) for using [AWS Kinesis](https://aws.amazon.com/kinesis) in [Spring Boot](https://projects.spring.io/spring-boot/). 
 As many other libraries, this particular one provided a powerful configuration. 
 To implement the configuration, we used Spring Boot's [@ConfigurationProperties](https://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/context/properties/ConfigurationProperties.html) (as described [here](/using-configurationproperties-to-separate-service-and-configuration/)). 
 This article gives some insights on how we did our testing.

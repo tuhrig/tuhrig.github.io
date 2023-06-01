@@ -6,7 +6,7 @@ categories:
 - "testing"
 ---
 
-At [Bringmeister](https://www.bringmeister.de/), we strongly believe in the benefit of End-2-End tests.
+In my daily work, I strongly believe in the benefits of End-2-End tests.
 End-2-End tests give us the confidence that our system is working as in tended.
 Other than unit tests, they are black box tests running from outside against our deployed services.
 They are our final barrier before we deploy anything to production: if the End-2-End tests are green, we can hit the button.
@@ -40,18 +40,18 @@ But how can we visualize this failing rate?
 # Bitbucket REST-API
 
 First of all, we must have access to our build results. 
-At [Bringmeister](https://www.bringmeister.de/), we are using [Bitbucket](https://bitbucket.org/) which offers us a REST-API to do so.
+Let's take [Bitbucket](https://bitbucket.org/) as an example which offers a REST-API to do so.
 The following `GET` request will query the first 100 build results from our pipeline.
 It has five parameters which are important:
 
- - **(a)** the name of the organisation / company
+ - **(a)** the name of the user / organisation / company
  - **(b)** the name of the repository
  - **(c)** the page to get (starting with 1)
  - **(d)** the page length (max 100)
  - **(e)** the trigger type
 
 ```
-https://api.bitbucket.org/2.0/repositories/bringmeister/acceptance-test/pipelines/?page=1&pagelen=100&sort=-created_on&trigger_type=SCHEDULED
+https://api.bitbucket.org/2.0/repositories/my-user-name/acceptance-test/pipelines/?page=1&pagelen=100&sort=-created_on&trigger_type=SCHEDULED
                                            |----------| |-------------|                 |         |-|                               |-------|
                                                 a               b                       c          d                                    e
 ```

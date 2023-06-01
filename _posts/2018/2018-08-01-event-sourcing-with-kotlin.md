@@ -144,7 +144,7 @@ if(consentGiven()) {
 
 ## More
 
-- [https://github.com/bringmeister/event-sourcing-with-kotlin](https://github.com/bringmeister/event-sourcing-with-kotlin)
+- [https://github.com/tuhrig/event-sourcing-with-kotlin](https://github.com/tuhrig/event-sourcing-with-kotlin)
 - [http://microservices.io/patterns/data/event-sourcing.html](http://microservices.io/patterns/data/event-sourcing.html)
 
 **Best regards,** Thomas.

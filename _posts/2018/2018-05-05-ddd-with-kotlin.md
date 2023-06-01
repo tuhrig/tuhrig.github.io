@@ -13,10 +13,10 @@ After exploring the language for a couple of weeks, I tried to translate one of 
 
 ## Example project
 
-I've prepared an [example project on GitHub](https://github.com/bringmeister/ddd-with-kotlin) showing some of the most important concepts of DDD with Kotlin. 
+I've prepared an [example project on GitHub](https://github.com/tuhrig/ddd-with-kotlin) showing some of the most important concepts of DDD with Kotlin. 
 The project implements a fictitious _product service_ which takes care of the bounded context of a product. 
 The _product service_ implements domain entities as well as value objects and uses an asynchronous communication via events and commands. 
-The example use case (which is described in the [README.md on GitHub](https://github.com/bringmeister/ddd-with-kotlin/blob/master/README.md)) involves communication with five fictitious external systems.
+The example use case (which is described in the [README.md on GitHub](https://github.com/tuhrig/ddd-with-kotlin/blob/master/README.md)) involves communication with five fictitious external systems.
 
 ```
 +-------------+
@@ -44,7 +44,7 @@ The example use case (which is described in the [README.md on GitHub](https://gi
 
 ## More
 
-- [https://github.com/bringmeister/ddd-with-kotlin](https://github.com/bringmeister/ddd-with-kotlin)
+- [https://github.com/tuhrig/ddd-with-kotlin](https://github.com/tuhrig/ddd-with-kotlin)
 - [https://kotlinlang.org](https://kotlinlang.org)
 
 **Best regards,** Thomas.

@@ -142,7 +142,7 @@ allAvailableBeans.forEach { bean ->
 
 ## An example use-case
 
-At [Bringmeister](https://www.bringmeister.de/), we used this technique to provide REST-controllers for our Kinesis event listeners.
+An example would be to use this technique to provide REST-controllers for event listeners (such as [Kinesis](https://aws.amazon.com/kinesis/), [Kafka](https://kafka.apache.org/) or [ActiveMQ](https://activemq.apache.org/)).
 The event listeners are called by any incoming record from Kinesis. 
 But sometimes it's good to have a simple way for providing test data and debugging.
 So we implemented a generic REST-controller to invoke any Kinesis event listeners.

@@ -11,7 +11,7 @@ categories:
 
 Over the last ten years, I worked with a lot of different database.
 I worked with traditional SQL databases such as [DB2](https://www.ibm.com/products/db2) and [Oracle](https://www.oracle.com/database/) in a professional context.
-NoSQL databases such as [DynamoDB](https://aws.amazon.com/dynamodb/) have been my best friends during the last five years at [Bringmeister](https://www.bringmeister.de/). 
+NoSQL databases such as [DynamoDB](https://aws.amazon.com/dynamodb/) have been my best friends during the last five years. 
 On side projects I also touched stuff like [MongoDB](https://www.mongodb.com/). 
 However, I never worked with a graph-database up till now. 
 Time to change that with [Neo4J](https://neo4j.com/)!

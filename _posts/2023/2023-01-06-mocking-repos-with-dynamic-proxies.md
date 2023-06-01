@@ -147,7 +147,7 @@ repository.save(new User());
 
 But what if you don't use Spring Data?
 Take a look at the interfaces from the example above - they don't use Spring Data!
-In fact, nearly all the software I developed at [Bringmeister](https://www.bringmeister.de/) during the last years, does not use Spring Data.
+In fact, nearly all the software I developed during the last years, does not use Spring Data.
 Instead, we use [DynamoDB](https://aws.amazon.com/dynamodb/) (on AWS) with its SDK directly.
 
 In such a case, we can write a Dynamic Proxy on our own.

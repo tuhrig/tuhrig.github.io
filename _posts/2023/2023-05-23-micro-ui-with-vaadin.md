@@ -11,14 +11,14 @@ categories:
 
 Microservices are a well established pattern in backend development.
 Everybody is using it. 
-At [Bringmeister](https://www.bringmeister.de/), we're running more than two dozens microservices just to handle product data alone.
+Running more than a dozen of microservices just to handle a single domain is not uncommon.
 But when it comes to frontend development, things are often different.
 I experienced two situations a lot:
 
  - The frontend is a big blob. A single application, developed and deployed as one large package.
  - Every service has its own little frontend, but they are not connected in any way. 
 
-The second was the case for our internal admin UIs at Bringmeister.
+The second was the case for our internal admin UIs at my current company.
 Every other service has its own little UI and everybody maintains a list of bookmarks to find things again.
 
 This post shows a simple approach to solve this problem. 

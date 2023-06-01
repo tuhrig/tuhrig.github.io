@@ -8,7 +8,7 @@ categories:
   - "spring"
 ---
 
-Our frontend team at [Bringmeister](https://www.bringmeister.de) uses [GraphQL](https://graphql.org/) as one of their major tools when build our online shop. 
+Our frontend team at [Bringmeister](https://www.bringmeister.de) uses [GraphQL](https://graphql.org) as one of their major tools when build our online shop. 
 They're using it to query different APIs and repositories to collect and gather all of their data.
 
 Recently, they showed me a Kotlin library for GraphQL from Netflix:
