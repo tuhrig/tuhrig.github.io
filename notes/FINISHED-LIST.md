@@ -83,7 +83,7 @@
 2014-07-29-deployman-command-line-tool-to-deploy-docker-images-to-aws.md
 2014-07-30-a-windows-sso-for-java-on-client-and-server.md
 2015
-2015-01-22-hello-berlin.md
+--- DONE --- 2015-01-22-hello-berlin.md
 2015-02-06-making-a-spring-bean-session-scoped.md
 2015-02-07-anti-patterns.md
 2015-02-20-thread-pools-with-javas-executorservice.md
@@ -96,7 +96,7 @@
 2015-08-25-everytime-a-mock-returns-a-mock-a-fairy-dies.md
 --- DONE --- 2015-11-13-using-spring-data-for-database-views-without-an-id.md
 --- DONE --- 2015-11-19-two-way-binding-for-url-parameters-in-angularjs.md
-2015-12-09-create-random-test-objects-with-java-reflection.md
+--- DONE --- 2015-12-09-create-random-test-objects-with-java-reflection.md
 2015-12-23-anti-pattern-dont-use-optionals-for-data-repositories.md
 2016
 --- DONE --- 2016-01-06-resizing-vagrant-box-disk-space.md

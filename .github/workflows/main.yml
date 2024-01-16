@@ -16,12 +16,12 @@ jobs:
       run: bundle install
     - name: Build with Jekyll  # Build the site
       run: JEKYLL_ENV=production bundle exec jekyll build
-    - name: 📂 Sync files
-      uses: SamKirkland/FTP-Deploy-Action@4.3.3
-      with:
-        server: hosting106745.a2f21.netcup.net
-        username: hosting106745
-        password: ${{ secrets.ftp_password }}
-        local-dir: ./_site/
-        server-dir: ./httpdocs/
-        state-name: .ftp-deploy-sync-state-1.json
+    # - name: 📂 Sync files
+    #   uses: SamKirkland/FTP-Deploy-Action@4.3.3
+    #   with:
+    #     server: hosting106745.a2f21.netcup.net
+    #     username: hosting106745
+    #     password: ${{ secrets.ftp_password }}
+    #     local-dir: ./_site/
+    #     server-dir: ./httpdocs/
+    #     state-name: .ftp-deploy-sync-state-1.json
