@@ -36,7 +36,7 @@ So we were able to improve a lot of things, but we failed to grow.
 
 Then came Corona 😷
 
-Although this crisis was though for everyone, from a business perspective it was a big accelerator.
+Although this crisis was tough for everyone, from a business perspective it was a big accelerator.
 Orders went through the roof and the numbers looked real good.
 That was when EDEKA took their chance and sold Bringmeister to [Rockaway Capital](https://www.rockawaycapital.com/en/).
 For EDEKA it was the right timing, but not for Bringmeister.
@@ -44,12 +44,12 @@ For EDEKA it was the right timing, but not for Bringmeister.
 Rockaway Capital promised a bright future. 
 Growth! Scaling! New office! More people! Billion-Dollar-Company! A location in every big city!
 Everything sounded real good. Too good.
-And except of the office, nothing every happened.
+But except of the office, nothing ever happened.
 After the initial welcome-pitches, nobody from Rockaway Capital was ever seen again.
-And a couple of months later, Bringmeister was desperately looking for new investors to jump on board.
+And a couple of months later, Bringmeister was desperately looking for a new investor to jump on board.
 Eventually Rockaway Capital sold Bringmeister again.
 
-This time, Bringmeister went to [Rohlik](https://www.rohlik.group/) which is the owner of [Knuspr](https://www.knuspr.de/herzlich-willkommen) - a direct competitioner.
+This time, Bringmeister went to [Rohlik](https://www.rohlik.group/) which is the owner of [Knuspr](https://www.knuspr.de/herzlich-willkommen) - a direct competitor.
 And this takeover was even more unpleasant as the one before.
 The employees didn't know anything about what was to happen. 
 There was dead silence about any plans.
@@ -68,19 +68,20 @@ And we actually did!
 Over the years, Bringmeister managed to get a positive contribution margin 1.
 But the scaling was missing. 
 We never managed to get a foot into any new city or location besides of Berlin and Munich.
-EDEKA didn't push it because of the competition with their local stores, Rockaway Capital didn't push it because there was no genuine interest, and Rohlik just wanted to get rid of a competitioner.
+EDEKA didn't push it because of the competition with their local stores, Rockaway Capital didn't push it because there was no genuine interest, and Rohlik just wanted to get rid of a competitor.
 After so many missed chances, it was time for a market consolidation.
 
 ## Our success
 
-![](/images/2024/bm-tv.png)
+![](/images/2024/bm-success.png)
 
-The field of online grocery services is a though battleground.
+The field of online grocery services is a tough battleground.
 Many have tried, many have failed.
 But Bringmeister did it as one of the pioneers for a long time. 
 We managed to build a great web-shop, a great app and a great company behind the scenes.
 We made over 100 million euros of sales in 2023 and shipped over 20.000 orders per week.
-We created a state-of-the-art software backend fully on AWS with more than 40 microservices.
+More than 20.000 products have been listed in our shop and we have been recognized by Stiftung Warentest as Testsieger among food delivery services.
+We created a state-of-the-art software backend fully on AWS with more than 50 microservices.
 And at least for my personal development, the last six years have been a big success.
 
 ## Thank you
