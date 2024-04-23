@@ -15,7 +15,7 @@ Since Saturday, the website is offline and Bringmeister is out of the race of on
 ## The Story of Bringmeister
 
 ![](/images/2024/bringmeister-back-in-the-days.png)
-(**Source:** [Supermarktblog.com](https://www.supermarktblog.com/2023/08/15/auslaufmodell-bringmeister-lieferdienst-mit-angezogener-handbremse/))
+(**Source:** [web.archive.org](https://web.archive.org/web/20130115191400/http://www.bringmeister.de/))
 
 Although Bringmeister looks like a typical start-up (and felt like!), it has a long history.
 It was founded in 1997 (!) by [Kaisers-Tengelmann](https://de.wikipedia.org/wiki/Kaiser%E2%80%99s_Tengelmann) in Berlin and was operating based on paper-catalogs. 
