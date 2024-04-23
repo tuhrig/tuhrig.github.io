@@ -23,7 +23,7 @@ You could order by phone or fax.
 
 After Kaisers-Tengelmann closed their doors, Bringmeister went to [EDEKA](https://www.edeka.de/) along with many stationary shops.
 This was the time I joined the team in 2018.
-EDEKA invested a lot of money and modernized old structures - including the software backend!
+EDEKA invested a lot of money and modernized old structures - including the software backend.
 The day I started, there were still laptops lying around in the office running production code.
 But things were about to change!
 EDEKA hired a lot of new people, and we re-wrote large parts of the old code base.
@@ -34,7 +34,7 @@ However, EDEKA was always reluctant to scale and grow the business.
 In my personal opinion, having a delivery service interfered with their local shops.
 So we were able to improve a lot of things, but we failed to grow.
 
-Then came Corona.
+Then came Corona 😷
 
 Although this crisis was though for everyone, from a business perspective it was a big accelerator.
 Orders went through the roof and the numbers looked real good.
@@ -42,9 +42,9 @@ That was when EDEKA took their chance and sold Bringmeister to [Rockaway Capital
 For EDEKA it was the right timing, but not for Bringmeister.
 
 Rockaway Capital promised a bright future. 
-Growth! Scaling! New office! More people! Billion-Dollar-Company!
-Everything sounded real good.
-But except of the office, nothing every happened.
+Growth! Scaling! New office! More people! Billion-Dollar-Company! A location in every big city!
+Everything sounded real good. Too good.
+And except of the office, nothing every happened.
 After the initial welcome-pitches, nobody from Rockaway Capital was ever seen again.
 And a couple of months later, Bringmeister was desperately looking for new investors to jump on board.
 Eventually Rockaway Capital sold Bringmeister again.
@@ -65,10 +65,10 @@ A month later, the remaining employees followed and the message was through the 
 Bringmeister has always been a losing business (as many other online grocery delivery services, too).
 You need to invest a lot of money in order to get this kind of business started.
 And we actually did!
-Because over the years, Bringmeister managed to get a positive contribution margin 1.
+Over the years, Bringmeister managed to get a positive contribution margin 1.
 But the scaling was missing. 
-We never managed to get a foot into any new city or location.
-EDEKA didn't push it because of the competition with the local stores, Rockaway Capital didn't push it because there was no genuine interest, and Rohlik just wanted to get rid of a competitioner.
+We never managed to get a foot into any new city or location besides of Berlin and Munich.
+EDEKA didn't push it because of the competition with their local stores, Rockaway Capital didn't push it because there was no genuine interest, and Rohlik just wanted to get rid of a competitioner.
 After so many missed chances, it was time for a market consolidation.
 
 ## Our success
@@ -80,7 +80,7 @@ Many have tried, many have failed.
 But Bringmeister did it as one of the pioneers for a long time. 
 We managed to build a great web-shop, a great app and a great company behind the scenes.
 We made over 100 million euros of sales in 2023 and shipped over 20.000 orders per week.
-We build a state-of-the-art software backend fully on AWS with more than 40 microservices.
+We created a state-of-the-art software backend fully on AWS with more than 40 microservices.
 And at least for my personal development, the last six years have been a big success.
 
 ## Thank you
