@@ -28,6 +28,7 @@ You can read it at [https://tuhrig.de](https://tuhrig.de/).
 
 ## Categories
 
+- "AI"
 - "coding"
 - "architecture"
 - "design-pattern" 
